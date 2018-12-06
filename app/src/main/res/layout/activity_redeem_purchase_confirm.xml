@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/actionBarHeightLayout"
+        layout="@layout/action_bar_layout_height" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHeightLayout"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/mainRedeemConfirmParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/transparent">
+
+                        <ImageView
+                            android:id="@+id/imageView_product"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp200"
+                            android:layout_marginBottom="@dimen/offer_detail_image_bottom_margin"
+                            android:background="@color/transparent"
+                            android:scaleType="fitXY"
+                            android:src="@mipmap/no_image_white"
+                            android:visibility="visible" />
+
+                        <ProgressBar
+                            android:id="@+id/progress_bar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_gravity="center"
+                            android:padding="@dimen/dp25"
+                            android:visibility="gone" />
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:layout_marginRight="@dimen/dp15"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="@dimen/dp5">
+
+                            <TextView
+                                style="@style/view_20"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="@dimen/dp5"
+                                android:paddingTop="@dimen/dp5"
+                                android:text="@string/enter_merchant_four_digit_pin"
+                                android:textColor="@color/black" />
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="@dimen/dp40"
+                                android:gravity="center"
+                                android:orientation="horizontal">
+
+                                <com.urbanpoint.UrbanPoint.views.customViews.pinEntry.PinEntryView
+                                    android:id="@+id/redeemUserPinEntry"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:textStyle="bold"
+                                    app:accentType="character"
+                                    app:digitBackground="@drawable/custom_square_gray_button"
+                                    app:digitHeight="@dimen/dp25"
+                                    app:digitSpacing="@dimen/dp15"
+                                    app:digitTextColor="@color/gray"
+                                    app:digitTextSize="@dimen/sp20"
+                                    app:digitWidth="@dimen/dp25"
+                                    app:mask=":"
+                                    app:pinAccentColor="@color/selected_pin_input"
+                                    app:pinInputType="number" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp30"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <Button
+                                android:id="@+id/redeemConfirmPurchaseButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0.10"
+                                android:background="@mipmap/change"
+                                android:text="@string/confirm_order"
+                                android:textSize="@dimen/sp18" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/offer_detail_image_bottom_strip_margin"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/lLyt_transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="center_vertical"
+                        android:background="#808d345a"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="@dimen/dp80"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="@dimen/dp5">
+
+                            <TextView
+                                android:id="@+id/detailsHeader"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:singleLine="true"
+                                android:text="@string/call"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/sp15" />
+
+                            <TextView
+                                android:id="@+id/detailsPrice"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:singleLine="true"
+                                android:text="@string/call"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:visibility="gone" />
+
+                            <TextView
+                                android:id="@+id/detailsMerchantName"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="1"
+                                android:background="@android:color/transparent"
+                                android:singleLine="true"
+                                android:text="@string/call"
+                                android:textAllCaps="false"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/sp13" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:id="@+id/imageView_merchant"
+                        android:layout_width="@dimen/dp70"
+                        android:layout_height="@dimen/dp70"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="@dimen/dp5"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/transparent"
+                        android:visibility="visible"
+                        app:civ_border_width="@dimen/dp1" />
+                </FrameLayout>
+            </RelativeLayout>
+
+
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp1"
+            android:background="@color/gray" />
+
+        <TextView
+            android:id="@+id/txtView_expiry"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp20"
+            android:layout_alignParentBottom="true" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

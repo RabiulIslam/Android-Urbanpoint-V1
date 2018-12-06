@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+   <LinearLayout
+        android:id="@+id/mainParentLayoutNew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHeightLayout"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+       <include
+           android:id="@+id/actionBarHeightLayout"
+           layout="@layout/action_bar_layout_height" />
+
+       <LinearLayout
+           android:visibility="gone"
+            android:id="@+id/mainLayoutUpper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp10"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/freeofferTxv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/offer_get_one_month"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/main_color"
+                android:textSize="@dimen/sp18"
+                android:visibility="gone"/>
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:background="@mipmap/icn_free_offers" />
+
+            <TextView
+                android:id="@+id/offerPackagePromotionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/offer_packages_promotional_text"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textColorHint="@color/main_color"
+                android:textSize="@dimen/sp14" />
+
+        </LinearLayout>
+
+        <com.urbanpoint.UrbanPoint.utils.ExpandableHeightListView
+            android:id="@+id/offerPackagesDataListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:choiceMode="singleChoice"
+            android:orientation="horizontal"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="5dp"
+            android:scrollbars="none" />
+
+       <LinearLayout
+           android:id="@+id/mainLayoutBottom"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:visibility="gone">
+
+           <TextView
+               android:id="@+id/offerPackageCreditCardText"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="@string/offer_packages_promotional_text3"
+               android:textAlignment="center"
+               android:textColorHint="@color/gray"
+               android:textSize="@dimen/sp14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp20"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/goToPayment"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp50"
+                android:layout_weight="0.40"
+                android:background="@drawable/rounded_edge_purple_button"
+                android:text="@string/continue_button"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp10">
+
+            <View
+                style="@style/button_style"
+                android:layout_width="@dimen/dp10"
+                android:layout_height="@dimen/dp10"
+                android:background="@drawable/purple_circle" />
+
+            <View
+                android:layout_width="@dimen/dp5"
+                android:layout_height="match_parent" />
+
+            <View
+                style="@style/button_style"
+                android:layout_width="@dimen/dp10"
+                android:layout_height="@dimen/dp10"
+                android:background="@drawable/purple_stroke_circle" />
+
+            <View
+                android:layout_width="@dimen/dp5"
+                android:layout_height="match_parent" />
+
+            <View
+                style="@style/button_style"
+                android:layout_width="@dimen/dp10"
+                android:layout_height="@dimen/dp10"
+                android:background="@drawable/purple_stroke_circle" />
+
+            <View
+                android:layout_width="@dimen/dp5"
+                android:layout_height="match_parent" />
+            <View
+                style="@style/button_style"
+                android:layout_width="@dimen/dp10"
+                android:layout_height="@dimen/dp10"
+                android:background="@drawable/purple_stroke_circle" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/offerPackagePhoneText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/offer_use_cards"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/gray_light"
+            android:textSize="@dimen/sp14" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_marginTop="@dimen/dp10"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/act_offr_new_pakages_btn_subscribe"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp40"
+                android:layout_weight="0.20"
+                android:textSize="@dimen/sp16"
+                android:textColor="@color/black"
+                android:background="@drawable/custom_round_gray_button"
+                android:text="@string/subscribe" />
+        </LinearLayout>
+       </LinearLayout>
+            <!--<TextView-->
+                <!--android:id="@+id/offerPackageFooterMessage"-->
+                <!--style="@style/view_20"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginBottom="@dimen/dp5"-->
+                <!--android:layout_marginTop="@dimen/dp10"-->
+                <!--android:gravity="left|bottom"-->
+                <!--android:paddingLeft="@dimen/dp15"-->
+                <!--android:text="asasdsad"-->
+                <!--android:textColor="@color/tab_color"-->
+                <!--android:textSize="@dimen/sp12"-->
+                <!--android:visibility="gone" />-->
+
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

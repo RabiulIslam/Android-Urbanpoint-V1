@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="top"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/firstText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/firstCircle"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Your\nPIN"
+            android:textColor="@color/main_color"
+            android:textSize="@dimen/sp18" />
+
+        <View
+            android:id="@+id/firstCircle"
+            style="@style/button_style"
+            android:layout_width="@dimen/dp20"
+            android:layout_height="@dimen/dp20"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp5"
+            android:background="@drawable/custom_red_circle_fill_view" />
+
+        <TextView
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp2"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_toLeftOf="@+id/secondCircle"
+            android:layout_toRightOf="@+id/firstCircle"
+            android:background="@drawable/gray_straight_line" />
+
+        <TextView
+            android:id="@+id/secondText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/secondCircle"
+            android:layout_alignBaseline="@+id/firstText"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="Merchant\nPIN"
+            android:textSize="@dimen/sp18" />
+
+        <View
+            android:id="@+id/secondCircle"
+            style="@style/button_style"
+            android:layout_width="@dimen/dp18"
+            android:layout_height="@dimen/dp18"
+            android:layout_centerInParent="true"
+            android:background="@drawable/custom_gray_circle_fill_view" />
+
+        <TextView
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp2"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp10"
+            android:layout_toLeftOf="@+id/thirdCircle"
+            android:layout_toRightOf="@+id/secondCircle"
+            android:background="@drawable/gray_straight_line" />
+
+        <TextView
+            android:id="@+id/thirdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/secondCircle"
+            android:layout_alignBaseline="@+id/firstText"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="\nDone!"
+            android:textSize="@dimen/sp18" />
+
+        <View
+            android:id="@+id/thirdCircle"
+            style="@style/button_style"
+            android:layout_width="@dimen/dp18"
+            android:layout_height="@dimen/dp18"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/dp10"
+            android:background="@drawable/custom_gray_circle_fill_view" />
+    </RelativeLayout>
+
+</LinearLayout>

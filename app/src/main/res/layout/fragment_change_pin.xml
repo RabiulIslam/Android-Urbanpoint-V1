@@ -1,0 +1,206 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/actionBarHeightLayout"
+        layout="@layout/action_bar_layout_height" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHeightLayout"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/mainParentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/actionBarHeightLayout"
+                layout="@layout/blank_layout_height" />
+
+            <TextView
+                android:id="@+id/welcomeText"
+                style="@style/change_pin_view_20"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp10"
+                android:text="@string/welcome" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/change_pin_view_20"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/your_login_email" />
+
+                <TextView
+                    android:id="@+id/userEmail"
+                    style="@style/change_pin_view_20"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/your_login_email"
+                    android:textColor="@color/blue" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical"
+                android:padding="@dimen/dp10">
+
+                <TextView
+                    style="@style/change_pin_view_20"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp10"
+                    android:text="@string/current_pin" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp40"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.urbanpoint.UrbanPoint.views.customViews.pinEntry.PinEntryView
+                        android:id="@+id/changePinOldPinEntry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+
+                        android:textStyle="bold"
+                        app:accentType="character"
+                        app:applyDigitTextSize="true"
+                        app:digitBackground="@drawable/custom_square_gray_button"
+                        app:digitHeight="@dimen/dp25"
+                        app:digitSpacing="@dimen/dp15"
+
+                        app:digitTextColor="@color/gray"
+                        app:digitTextSize="@dimen/dp8"
+                        app:digitWidth="@dimen/dp25"
+                        app:mask="&#8226;"
+                        app:pinAccentColor="@color/selected_pin_input"
+                        app:pinInputType="number" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:orientation="vertical"
+                android:padding="@dimen/dp10">
+
+                <TextView
+                    style="@style/change_pin_view_20"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp10"
+                    android:text="@string/new_pin" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp40"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.urbanpoint.UrbanPoint.views.customViews.pinEntry.PinEntryView
+                        android:id="@+id/changePinNewPinEntry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        app:accentType="character"
+                        app:applyDigitTextSize="true"
+                        app:digitBackground="@drawable/custom_square_gray_button"
+                        app:digitHeight="@dimen/dp25"
+                        app:digitSpacing="@dimen/dp15"
+                        app:digitTextColor="@color/gray"
+                        app:digitTextSize="@dimen/dp8"
+                        app:digitWidth="@dimen/dp25"
+                        app:mask="&#8226;"
+                        app:pinAccentColor="@color/selected_pin_input"
+                        app:pinInputType="number" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:orientation="vertical"
+                android:padding="@dimen/dp10">
+
+                <TextView
+                    style="@style/change_pin_view_20"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp10"
+                    android:text="@string/confirm_new_pin" />
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dp40"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.urbanpoint.UrbanPoint.views.customViews.pinEntry.PinEntryView
+                        android:id="@+id/changePinConfirmNewPinEntry"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        app:accentType="character"
+                        app:applyDigitTextSize="true"
+                        app:digitBackground="@drawable/custom_square_gray_button"
+                        app:digitHeight="@dimen/dp25"
+                        app:digitSpacing="@dimen/dp15"
+                        app:digitTextColor="@color/gray"
+                        app:digitTextSize="@dimen/dp8"
+                        app:digitWidth="@dimen/dp25"
+                        app:mask="&#8226;"
+                        app:pinAccentColor="@color/selected_pin_input"
+                        app:pinInputType="number" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp30"
+                android:layout_marginTop="@dimen/dp10"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/changePinButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.10"
+                    android:background="@mipmap/change"
+                    android:text="@string/change" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

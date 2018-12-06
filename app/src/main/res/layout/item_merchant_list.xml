@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp100"
+    android:background="@drawable/elevation"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dp4"
+    android:paddingLeft="@dimen/dp4"
+    android:paddingRight="@dimen/dp4"
+    android:paddingTop="@dimen/dp4">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/merchantLogoImageLayout"
+            android:layout_width="@dimen/dp80"
+            android:layout_height="@dimen/dp100"
+            android:orientation="vertical">
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/merchantLogoImage"
+                android:layout_width="@dimen/dp80"
+                android:layout_height="@dimen/dp80"
+                 />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/arrow"
+
+            android:layout_toRightOf="@+id/merchantLogoImageLayout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp10">
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp5" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp5"
+                    android:layout_marginRight="@dimen/dp5"
+                    android:layout_toLeftOf="@+id/arrow"
+                    android:layout_toRightOf="@+id/merchantLogoImageLayout"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/merchant_name"
+                        style="@style/view_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="left"
+                        android:singleLine="true"
+                        android:text="@string/enter_email_message"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp18"
+                        android:textStyle="normal" />
+
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dp5" />
+
+                    <TextView
+                        android:id="@+id/merchantAddress"
+                        style="@style/view_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@+id/locationIcon"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/sp15"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp5" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp5"
+            android:layout_marginRight="@dimen/dp5"
+            android:contentDescription="@string/app_name"
+            android:src="@mipmap/fwd_icon" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

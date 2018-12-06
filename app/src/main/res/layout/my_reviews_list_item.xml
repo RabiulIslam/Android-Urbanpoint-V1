@@ -1,0 +1,231 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp300">
+
+
+        <TextView
+            android:id="@+id/txtV_itemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/dp8"
+            android:text="@string/itemName"
+            android:singleLine="true"
+            android:textColor="@color/selected_pin_input"
+            android:textSize="@dimen/sp18" />
+
+        <TextView
+            android:id="@+id/txtV_itemName_maiCourse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/txtV_itemName"
+            android:paddingBottom="@dimen/dp10"
+            android:text="@string/itemName"
+            android:singleLine="true"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp16" />
+
+
+        <ImageView
+            android:id="@+id/offerImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp250"
+            android:layout_below="@+id/txtV_itemName_maiCourse"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@mipmap/no_image_white" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp50"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/transperent_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mainLayout"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                   >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+
+                        <Button
+                            android:id="@+id/imageView_dislike"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@mipmap/nthappy_icon"
+                            android:drawablePadding="5dp"
+                            android:gravity="left|center_vertical"
+                            android:padding="@dimen/dp5"
+                            android:layout_gravity="center"
+                            android:text="@string/dislike_review"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp14"
+                            />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+
+                        <Button
+                            android:id="@+id/imageView_notbad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@mipmap/ok_icon"
+                            android:layout_gravity="center"
+                            android:drawablePadding="5dp"
+                            android:layout_marginLeft="@dimen/dp15"
+                            android:gravity="left|center_vertical"
+                            android:padding="@dimen/dp5"
+                            android:text="@string/not_bad_review"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp14"
+                            />
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+
+                        <Button
+                            android:id="@+id/imageView_loveit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@android:color/transparent"
+                            android:drawableLeft="@mipmap/lovedit_icon"
+                            android:drawablePadding="5dp"
+                            android:gravity="left|center_vertical"
+                            android:padding="@dimen/dp5"
+                            android:text="@string/love_it_review"
+                            android:textAllCaps="false"
+                            android:layout_gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/sp14"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/lLyt_transparent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_vertical"
+                android:visibility="gone"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/transperent_bg"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+                    <!--android:background="#808d345a"
+                      android:background="@mipmap/transperent_bg"
+                    -->
+
+                    <TextView
+                        android:id="@+id/txtV_itemName_old"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/dp15"
+                        android:singleLine="true"
+                        android:text="@string/itemName"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp18" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="@dimen/dp5"
+                        android:text="at"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp18"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txtV_itemMerchantName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/dp15"
+                        android:singleLine="true"
+                        android:text="@string/itemName"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp18"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

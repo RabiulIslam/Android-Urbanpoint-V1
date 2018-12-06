@@ -1,0 +1,1058 @@
+<resources>
+    <string name="app_name">Urban Point</string>
+    <string name="app_name_with_space">Urban Point</string>
+
+    <string name="action_settings">sdad</string>
+
+    <!-- Login Screen -->
+    <string name="logoContentDescription">Splash Logo</string>
+    <string name="name_heading">Name</string>
+    <string name="name_hint">User Username</string>
+    <string name="email">Email</string>
+    <string name="forgot_password"><u>Forgot PIN?</u></string>
+    <string name="forgot_password_title">Forgot PIN</string>
+    <string name="forgot_password_button_title">Retrieve your PIN</string>
+
+    <string name="EmailErrorMessage">Please enter email</string>
+    <string name="PasswordErrorMessage">Please enter password</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_search_field">Please fill in the search field</string>
+    <string name="missing_email">Email is missing</string>
+    <string name="missing_password">Password is missing</string>
+    <string name="invalid_email_password">Entered email or password are not in correct format</string>
+    <string name="incorrect_email_password">Either email or password is incorrect</string>
+    <string name="home_screen">Dashboard Home Screen</string>
+
+
+    <!--  Register Screen String starts here  -->
+    <string name="registerScreenTitle">Register</string>
+    <string name="nameHint">Full Name</string>
+    <string name="emailHint">Email</string>
+    <string name="emailHint2">User@email.com</string>
+    <string name="passwordHint">Password</string>
+    <string name="register">Register</string>
+
+    <!-- Network String Starts here -->
+    <string name="network_service_message_title">Network Services</string>
+    <string name="network_service_message">Network not available</string>
+    <string name="network">Network</string>
+
+    <!-- ShowAlertDialog String Starts here -->
+    <string name="Ok">OK</string>
+    <string name="show_to_user">Show this screen to staff \n to get your offer</string>
+    <string name="rate_experience">Rate experience</string>
+    <string name="go_to_home"><u>Go to Home</u></string>
+    <string name="go_home">Go Home</string>
+    <string name="choose_network">Choose your network provider</string>
+    <string name="age_text">What\'s your age?</string>
+
+    <!-- Application Error Message -->
+    <string name="invalid_message">Oops! something went wrong. Please try again</string>
+    <string name="no_data_received">Could not get any data from the web server</string>
+    <string name="invalid_json_format">Invalid JSON format</string>
+    <string name="unauthorized_access">Unauthorized Access</string>
+
+    <!-- Facebook Settings -->
+    <string name="facebook_app_id">167219837169256</string>
+    <string name="sing_in_with_fd">Login With Facebook</string>
+
+    <!-- Google Map Settings -->
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false"> AIzaSyBFsaQAX9WEdtuwEbBBL0F_eO2I-mvOwi8</string>
+    <string name="location_service_message_title">Location Services</string>
+    <string name="location_service_message">Kindly enable location services</string>
+
+
+    <!-- GooglePlayService Strings -->
+    <string name="device_not_supported">This device is not supported</string>
+    <string name="invalid_google_play_service_found">No valid Google Play Services APK found</string>
+
+    <!-- GCM Strings -->
+    <string name='gcm_send_message'>Token retrieved and sent to server! You can now use gcmsender to
+        send downstream messages to this app.</string>
+    <string name='token_error_message'>An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server. Please try running the sample again.</string>
+
+    <!--<string name="intro_screen_message">Discover amazing experiences in your city</string>-->
+    <!--<string name="intro_screen_message">Access hundreds of offers every month</string>-->
+    <string name="intro_screen_message">Enjoy your city for less!</string>
+
+    <string name="sign_up_step_one_message">Hi! Nice to meet you, tell us your name</string>
+    <string name="sign_up_step_two_message">Are you a girl or guy?</string>
+    <!--<string name="sign_up_step_three_message">Tell us about your interests so we can get you what you like</string>-->
+    <string name="sign_up_step_three_message">Tell us your interests so that we can get you what you like</string>
+
+    <string name="sign_up_step_four_message">Are you a Vodafone Qatar customer?</string>
+
+    <!--<string name="sign_up_step_five_message">Please setup your PIN.\n You can always change it later.</string>-->
+    <string name="sign_up_step_five_message">Please setup your PIN</string>
+
+
+    <string name="login">Login</string>
+    <string name="login_click">Login click</string>
+    <string name="get_started">Get Started</string>
+    <string name="back">Back</string>
+    <string name="enter_email_message">Please enter your email</string>
+
+    <string name="setup_your_account">Set Up Your Account</string>
+
+
+    <string name="enter_pin">Enter PIN</string>
+    <string name="continue_button">Continue</string>
+    <string name="expired">Expired</string>
+
+    <string name="food_and_drink">Food &amp; Drink</string>
+    <string name="beauty_and_health">Beauty &amp; Health</string>
+    <string name="fun_activities">Fun &amp; Leisure</string>
+    <string name="retail_services">Retail &amp; Services</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="finish">Finish</string>
+    <string name="access_code_edt_text_1">Access Code</string>
+    <string name="what_are_you_looking_for">What are you looking for?</string>
+    <string name="what_are_you_looking_for_with_space">&#160;&#160;&#160;What are you looking for?</string>
+    <string name="received_messages">Received messages</string>
+    <string name="contextual_messages_heading">Always know what\'s around</string>
+    <string name="contextual_messages">Enable location to sort offers \nbased on their distance from you.</string>
+    <string name="contextual_uber_messages">Please enable location permission to request an Uber ride.</string>
+    <string name="contextual_uber_btn">Enable</string>
+    <string name="app_update_messages">Please update to the latest version of the Urban Point app to continue using it.</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="sign_up_enter_name_message">Please enter your name</string>
+    <string name="sign_up_select_gender">Please tell us if you are a girl or guy</string>
+
+    <!--Drawer list items -->
+    <string name="home">Home</string>
+    <string name="pin">PIN</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="purchase_history">Purchase History</string>
+    <string name="my_reviews">My Reviews&#160;</string>
+    <string name="my_profile">Profile</string>
+    <string name="my_notification">Notifications</string>
+    <string name="change_cellular_operator">Change Cellular Provider</string>
+    <string name="un_subscribe">Unsubscribe</string>
+    <string name="un_subscribe_enter_mobile_no">Unsubscribe enter mobile no</string>
+
+    <string name="my_earnings">My Earnings</string>
+    <string name="how_to_use">How to Use</string>
+
+    <string name="merchant_pin">Merchant PIN</string>
+    <string name="redemption_merchant_pin">Redemption: Merchant PIN</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="redemption_user_pin">Redemption: User PIN</string>
+    <string name="health_fitness_outlets">Health and Fitness Outlets</string>
+    <string name="health_fitness_offers">Health and Fitness offers</string>
+    <string name="start_screen">Getting started screen</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="app_first_screen">App first screen - welcome screen</string>
+    <string name="beauty_spa_outlets">Beauty and Spa Outlets</string>
+    <string name="beauty_spa_offers">Beauty and Spa offers</string>
+    <string name="food_and_drink_offers">Food and Drink offers</string>
+    <string name="food_and_drink_outlets">Food and Drink outlets</string>
+    <string name="food_and_drink_offer_details">Food and Drink Offer Details</string>
+    <string name="fun_activity_offer">Fun Activities offers</string>
+    <string name="ga_removed_favorites">Removed Favorites: </string>
+    <string name="food_drink_outlet">Food and Drink Outlets</string>
+    <string name="beauty_spa_outlet">Beauty and Spa Outlets</string>
+    <string name="fun_activity_outlet">Fun Activities Outlets</string>
+    <string name="health_fitness_outlet">Health and Fitness Outlets</string>
+    <string name="fav_screen">Favorites</string>
+    <string name="incorrect_merchant_pin_msg">Sorry, the Merchant PIN that you have entered is incorrect. Please enter the correct Merchant PIN.</string>
+    <string name="incorrect_pin_msg">Sorry, the PIN that you have entered is incorrect. Please enter the correct PIN</string>
+    <string name="susbsciption_screen_one">Subscription screen for Vodafone Qatar users - enter phone number</string>
+
+    <string name="offer_package_screen">Non Vodafone Offer Packages</string>
+    <string name="logout">Logout</string>
+    <string name="ga_menu_drawer_open">Side menu-drawer screen</string>
+    <string name="forgot_pin_page">Forgot pin page</string>
+    <string name="welcome">Welcome %1$s!</string>
+    <string name="your_login_email">Your login email is &#160;</string>
+    <string name="current_pin">Current PIN</string>
+    <string name="new_pin">New PIN</string>
+    <string name="confirm_new_pin">Confirm new PIN</string>
+    <string name="change_underline"><u>Change</u></string>
+    <string name="change">Change</string>
+    <string name="enter_pin_message">Please enter pin</string>
+
+    <string name="sign_up_enter_pin_message">Please enter and confirm your PIN</string>
+    <string name="sign_up_enter_confirm_pin_message">Please confirm your PIN</string>
+
+
+    <string name="natinality_message">Please select \n your country</string>
+    <string name="enter_current_pin_message">Please enter current pin</string>
+    <string name="enter_new_pin_message">Please enter new pin</string>
+    <string name="enter_new_confirm_pin_message">Please enter confirm New PIN</string>
+    <string name="enter_pin_not_match">The PINs  you entered do not match, please re-enter the PINs</string>
+    <string name="change_pin_enter_pin_not_match">The Current PIN entered is incorrect.</string>
+
+
+    <string name="no_internet">No internet connection available.</string>
+    <string name="invalid_nummber">Please enter a valid mobile number</string>
+    <string name="no_fav_marked">You currently do not have any offers marked as favorite</string>
+    <string name="request_send">Request send</string>
+    <string name="no_offer_availble">No Offers Available</string>
+    <string name="pin_does_not_match">The entered code is incorrect</string>
+
+    <!--  <string name="how_to_use_one">1. Visit the store\n where you\n would like to avail\n the offer</string>
+      <string name="how_to_use_two">2. Select \'\'Redeem\'\'\n on the\n offer page, and enter\n your &#160;PIN</string>
+      <string name="how_to_use_three">3. Present your\n phone to the\n merchant to enter \nmerchant PIN</string>
+      <string name="how_to_use_four">4. Sit back, relax &amp;\n enjoy the service!</string>-->
+    <string name="how_to_use_one">1. \nVisit the place where you\'d \n like to use the offer</string>
+    <string name="how_to_use_two">2. \nClick on the \'\'Get it\'\' button  on the offer screen</string>
+    <string name="how_to_use_three">3. \nOne of the staff members needs to enter their PIN to confirm the offer</string>
+    <string name="how_to_use_four">The staff member will then apply the discount to your bill. Enjoy the savings!</string>
+
+    <string name="contact_us_how_can_help_you">How can we help you?</string>
+    <string name="contact_us_main_message">Just type your message below, and we will get back to you within 24-48 hours</string>
+    <string name="please_type_here">Please type here...</string>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="contact_us_reason_array">
+        <item>Reason for contacting</item>
+        <item>Need Help</item>
+        <item>File Complaint</item>
+        <item>Compliment</item>
+        <item>Change Cellular Operator</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="payment_expiry_month">
+        <item>MM</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="payment_expiry_year">
+        <item>YY</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+    </string-array>
+
+    <string name="my_earning_header">You can increase your earnings by encouraging more friends buy to any of our offer </string>
+    <string name="friends_referred">Friends Referred</string>
+    <string name="friends_signed_up">Friends Signed Up</string>
+    <string name="cash_paid">Cash Paid</string>
+    <string name="qar">QR %1$s</string>
+
+    <string name="submit">Submit</string>
+    <string name="total_saving">Total Savings = QR %1$s</string>
+    <string name="logging_your_account">Logging into your account...</string>
+
+    <string name="select_reason">Please select any reason</string>
+    <string name="enter_into_comment_box">Please enter text into comment box</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--new-->
+    <string name="select_is_vodafone_or_not">Please tell us if you are a Vodafone/Ooredoo customer or not</string>
+
+    <string name="logout_confirm_message">Are you sure you want to logout?</string>
+    <string name="select_at_least_one_category">Please select at least 1 of your interests</string>
+    <string name="no_email_or_pin_entered">Please enter your email address and a 4-digit PIN</string>
+    <string name="sign_up_loading_message">Getting you setup...</string>
+    <string name="purchase_history_no_data_found">You have not made any purchases yet</string>
+    <string name="my_reviews_no_data_found">You do not have any offers to review</string>
+    <string name="wrong_email_pin">The email and/or PIN that you have entered are incorrect. Please try again.</string>
+    <string name="lets_go">Let\'s go!</string>
+
+    <string name="remove_faves_confirm_message">Remove from faves?</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- <string name="how_to_work_one">Browse through our offers</string>
+     <string name="how_to_work_two">Redeem ANY offer to try us out</string>
+     <string name="how_to_work_three">Then, if you like us, purchase one of our offer packages</string>
+     <string name="how_to_work_four">For a very small fee, access hundreds of money saving offers every month</string>
+ -->
+    <!--<string name="how_to_work_one">Browse through our app to find exceptional offers!</string>
+    <string name="how_to_work_two">Redeem any ONE of our Dining, Beauty, Fun or Fitness offers!</string>
+    <string name="how_to_work_three">Enjoyed the savings? Then access ALL offers for a small monthly fee!</string>
+    <string name="how_to_work_four">Enjoy and save on hundreds of amazing offers every month!</string>
+-->
+    <string name="how_to_work_one">Browse through our app</string>
+    <string name="how_to_work_two">Redeem ANY one of our offers</string>
+    <string name="how_to_work_three">Enjoy the savings :)</string>
+    <string name="how_to_work_four">Access ALL offers for a small fee</string>
+
+
+    <string name="please_wait">Please wait...</string>
+    <string name="skip"><u>Skip</u></string>
+    <string name="enjoy_your">Enjoy Your</string>
+    <string name="ist_offer">Offer Free</string>
+    <string name="nationality">Nationality</string>
+    <string name="nationality_hint">Please select your country</string>
+    <!--<string name="here_how_it_works_header">Here\'s how it works </string>-->
+    <string name="here_how_it_works_header">Getting Started</string>
+
+    <string name="loading_offers">Loading offers...</string>
+    <string name="loading_reviews">Loading Reviews...</string>
+
+
+    <!--Offer Detail Screen-->
+    <string name="out_of_stock">out of stock</string>
+    <string name="purchased">purchased</string>
+    <string name="call">Call</string>
+    <string name="directions">Directions</string>
+    <string name="share">Invite Friends</string>
+    <string name="share2">Share</string>
+    <string name="description">Description</string>
+    <string name="itemName">Item Name</string>
+    <string name="itemPrice"><strike>QR 0.00</strike></string>
+    <string name="itemSpecialPrice">QR 0.00</string>
+    <string name="savings">Savings = </string>
+    <string name="percentage_sign">0%</string>
+    <string name="txt_expiry">Expires On: </string>
+    <string name="redeem">Get It</string>
+    <string name="btn_out_of_stock">Out of Stock</string>
+
+    <!--<string name="btn_sold_out">Sold Out</string>-->
+    <string name="btn_sold_out">Used</string>
+
+    <string name="add_to_list">Favorite</string>
+    <!--<string name="saved_to_list">Saved to List</string>-->
+    <string name="saved_to_list">Saved to Faves</string>
+    <!--<string name="price_unit">QAR&#160;</string>-->
+    <string name="price_unit">QR&#160;</string>
+
+    <string name="what_need_to_know">What you need to know</string>
+    <string name="empty_string"></string>
+    <string name="offers_text">All offers are subject to</string>
+    <string name="rules_of_purchase"><u>Rules of Purchase</u></string>
+    <string name="title_rules_of_purchase">Rules of Purchase</string>
+    <string name="timing_text">Timings</string>
+    <string name="done">Done</string>
+    <string name="direction_confirmation">Do you want to show Direction?</string>
+    <string name="open">Open</string>
+
+
+    <string name="tab_offer">Offers</string>
+    <!--<string name="tab_merchants">Merchants</string>-->
+    <string name="tab_merchants">Outlets</string>
+
+    <!-- <string name="tab_my_wish_list">My Wishlist(0) </string>
+     <string name="tab_my_wish_list_dynamic">My Wishlist </string>-->
+    <string name="tab_my_wish_list">My Faves&#160;(0) </string>
+    <string name="tab_my_wish_list_dynamic">My Faves&#160; </string>
+
+    <string name="save">Save</string>
+    <string name="distanceAndMerchantAddressString">%1$s km - %1$s</string>
+    <string name="km">km</string>
+
+
+    <string name="signup_food_and_drink">Food &amp;\nDrink\n&#160; </string>
+    <string name="signup_beauty_and_spa">Beauty &amp;\nHealth\n&#160; </string>
+    <string name="signup_fun_activities">Fun&amp;\nLeisure\n&#160; </string>
+    <string name="signup_health_fitness">Retail &amp;\n Services\n&#160; </string>
+
+
+    <string name="men_only_offers">Men Only Offers</string>
+    <!--<string name="women_only_offers">Women only offers</string>-->
+    <string name="women_only_offers">Ladies</string>
+
+    <string name="all_offers">All Offers</string>
+
+
+    <!--MerchantList-->
+    <string name="offers">Offers</string>
+    <string name="phone_text">Phone</string>
+    <string name="address_text">Address</string>
+
+    <!--<Redeem>-->
+    <string name="enter_four_digit_pin">Please enter your 4-digit PIN</string>
+    <string name="enter_merchant_four_digit_pin">Please enter the 4-digit PIN</string>
+    <string name="confirm_purchase">Confirm Purchase</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="get_a_ride">Get a ride</string>
+    <string name="error_customer_pin">Sorry, the PIN that you have entered is incorrect. Please enter the correct PIN </string>
+    <string name="error_merchant_pin">Sorry, the Merchant PIN that you have entered is incorrect. Please enter the correct Merchant PIN </string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="redeem_confirm_success">Congratulations! Your order has been placed</string>
+
+
+    <!--<string name="order_complete_msg">Your order is complete</string>-->
+    <!--<string name="order_complete_msg">Your offer of <font fgcolor='black'> <b>%1$s</b></font> at <font color='black'> <b>%2$s</b> </font> has been unlocked!</string>-->
+
+
+    <string name="confirmation_code">Confirmation Code</string>
+
+    <!--Filter-->
+    <string name="filter_hint">What are you looking for?</string>
+    <string name="discount">Savings:</string>
+    <string name="filter_error">Hey! We don\'t have what you are looking for, but we will work on getting it soon!</string>
+    <string name="filter_title">Filter</string>
+
+
+    <!--New Async task value-->
+    <string name="pleasewait">Please Wait</string>
+    <string name="systemoffline">Check the Network connection</string>
+
+    <!--<string name="added_to_ur_wish_list">Added to your wish list</string>-->
+    <string name="added_to_ur_wish_list">Added to faves</string>
+
+    <string name="delete_my_faves_message">To delete from your faves, simply press the offer for a few seconds</string>
+
+
+    <!--
+        <string name="offer_packages_messages"><![CDATA[Gain access to hundreds of 50% or more discounts for beauty &amp; spa, food &amp; drink, health &amp; fitness and fun activities in Qatar! For a small subscription fee, enjoy REAL SAVINGS worth hundreds of Riyals  every month!<br><br><b> Limited Time Offer: </b> Get 1 Month Free and <br> additional discounts when you buy our 6 or 12 month packages!]]></string>
+    -->
+    <string name="offer_packages_messages"><![CDATA[Gain access to hundreds of 50% or more discounts for beauty &amp; spa, food &amp; drink, health &amp; fitness and fun activities in Qatar! For a small subscription fee, enjoy REAL SAVINGS worth hundreds of Riyals  every month!<br><br><b> Limited Time Offer: </b> $$$$ ]]></string>
+
+    <string name="limited_time_offer_text">Limited Time Offer:</string>
+
+    <string name="offer_packages_enter_discount_code">Enter discount code</string>
+    <string name="apply_code">Apply Code</string>
+    <string name="offer_packages">Offers Packages</string>
+    <string name="member_packages">Member Packages</string>
+    <string name="member_screen_msg">If you subscribed by SMS please verify your \n phone number here to unlock all offers</string>
+    <string name="offer_packages_footer_messages"><![CDATA[Please note that your credit card will charged in US Dollars. <br> <br> Monthly savings are approximates based on estimated purchases of customers every month and may differ from one person to another.]]></string>
+    <string name="offer_packages_price_per_month">Price/Month:&#160;</string>
+    <string name="offer_packages_total_due">Total Due:&#160;</string>
+    <!--<string name="offer_packages_monthly_savings">Monthly Savings:&#160;</string>-->
+    <string name="offer_packages_monthly_savings">Approximate Savings:&#160;</string>
+
+    <!--<string name="offer_packages_save_one_month">Save %1$s - get 1 Month Free</string>-->
+
+    <string name="offer_get_frst_month">&#160; &#160;Get 1st Month Free&#160; &#160;</string>
+    <string name="offer_get_one_month">Get 1st Month Free</string>
+    <string name="offer_get_one_extra_month">Get 1 Extra Month Free!</string>
+    <string name="offer_packages_promotional_text">Access hundreds of offers for only <b>QR 15/Month!</b>\nAll regular Urban Point <b>offers renew every month!</b> \nUse as many as you want, use again next month! </string>
+    <string name="offer_packages_promotional_text2">Use as many as you want, use again next month! \n <b>All offers renew every month.</b> \n Access <b>Hundreds </b>of offers for only QR15/Month!</string>
+    <string name="offer_packages_promotional_text3">Your credit card will be charged in US Dollars</string>
+    <string name="offer_packages_save_one_month">Get 3 additional months free</string>
+    <string name="offer_get_three_month"><b>QR 25 for 3 Months</b></string>
+    <string name="offer_get_six_month"><b>QR 50 for 6 Months</b></string>
+    <string name="offer_get_one_year"><b>QR 85 for 1 Year</b></string>
+    <string name="offer_subscribe_cell_no">+974</string>
+    <string name="offer_subscribe_get_code">Get Code</string>
+    <string name="member_screen_verify">Verify</string>
+    <string name="member_screen_verify_pay_text">Pay on your phone bill \n Cancel your membership any time</string>
+    <string name="offer_subscribe_pay_text">Pay on your phone bill \n Cancel your subscription any time</string>
+    <string name="offer_subscribe_dont_pay_text">Don\'t want to pay on your phone bill?</string>
+    <string name="offer_use_cards">Don\'t want to use cards? Pay on your phone bill</string>
+    <string name="offer_use_cards_2">Want to enjoy our offers for a longer period?</string>
+    <string name="offer_subscribe_pay_by_card">Pay By Card</string>
+    <string name="offer_subscribe_confrm_code_text">Please enter the \ncode sent by SMS</string>
+    <string name="offer_subscribe_confrm_text">We have sent the code by SMS to your number \n Didn\'t receive the code?</string>
+    <string name="offer_subscribe_confrm_try_again"><u>Try Again</u></string>
+    <string name="offer_subscribe_sucess">You are now an \n Urban Point member!</string>
+    <string name="offer_subscribe_sucess_alomost_there">Your subscription will renew automatically every 30 days and give you access to all offers, that renew every month</string>
+    <string name="offer_subscribe_sucess_credit_card">Enjoy access to all our offers, which you can use again every month!</string>
+    <string name="offer_subscribe_sucess_msg">Let\'s get the most of the hundreds of offers that we created for you!</string>
+
+    <string name="offer_packages_discount_code_empty">Please enter discount code</string>
+    <string name="offer_packages_select_offer_error">Please select offer package</string>
+
+
+    <!--My Reviews-->
+    <string name="dislike_review">Not Happy</string>
+    <string name="not_bad_review">Ok</string>
+    <string name="love_it_review">Love it!</string>
+    <string name="my_review_success_msg">Thanks for reviewing your experience!</string>
+
+
+    <string name="delete">Delete</string>
+    <string name="card_number">Card Number</string>
+    <string name="mm_yy">MM/YY</string>
+    <string name="cvv">CVV</string>
+    <string name="payment">Payment</string>
+    <string name="application_subscription">Application Subscription</string>
+
+    <string name="complete_payment">Complete Payment</string>
+    <string name="card">Card</string>
+    <string name="usd">usd</string>
+
+    <!--<string name="date_error">Entered date is in invalid format</string>-->
+    <string name="date_error">Entered date is invalid</string>
+    <string name="select_date_error">Please add expiry date</string>
+
+
+    <string name="invalid_card_number"> The card number that you entered is invalid</string>
+    <string name="invalid_expiration_date"> The expiration date that you entered is invalid</string>
+    <string name="invalid_cvv_number"> The CVC code that you entered is invalid</string>
+    <string name="invalid_card_details">The card details that you entered are invalid</string>
+
+
+    <!--Forgot Password Activity-->
+    <string name="provide_email_message">Please provide your email ID.</string>
+
+
+    <!--payment process activity-->
+    <string name="cardNumberErrorMessage">Please enter card number</string>
+    <string name="cVVNumberErrorMessage">Please enter cvv number</string>
+    <string name="symbol_dollar">$</string>
+    <string name="not">not</string>
+    <string name="purchase_success_message">Congratulations! You have successfully purchased a %1$s Offers Package. We hope you enjoy your savings.</string>
+
+
+    <string name="vodafone">Vodafone Qatar</string>
+    <string name="others">Others</string>
+    <string name="verify">Verify</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_mobile_number">Please enter a valid mobile number</string>
+
+    <string name="subscribed_already">Your are already Subscribed.</string>
+
+    <string name="subscription_failed_try_again">Subscription request failed, please try again later.</string>
+    <string name="entered_wrong_otp">The code you have entered is not correct. Please re-enter the correct code, or request a new code by clicking \"Send Again\" below.</string>
+
+
+    <string name="pay_only_on_voda_bill">Pay Only QAR 9/month on your \n Vodafone Qatar Bill</string>
+    <string name="special_offer_voda_cust">Special offer for Vodafone Qatar customers</string>
+    <string name="no_credit_card_required">No credit or debit card required</string>
+    <string name="no_long_term_contract">No long-term contract</string>
+    <string name="enjoy_hundred_of_offers">Enjoy access to hundreds of offers</string>
+    <string name="pay_monthly_on_bill">Pay monthly on your bill</string>
+    <string name="submit_phone_number_to_subscribe">Please submit your phone number to subscribe</string>
+    <string name="vodafone_cust_footer_note_message">Once you hit Subscribe, we will send you a \n text message with your verification \n code to confirm your subscription to Urban Point.</string>
+
+    <string name="subscribe">Subscribe</string>
+    <string name="subscription">Subscription</string>
+    <string name="vodafone_user">Gain access</string>
+    <string name="vodafone_enter_phone_action_bar_header">Vodafone Qatar User</string>
+
+    <string name="home_screen_main_button_header_access_first_offer">&#160;Access 1st Offer for Free!&#160;</string>
+    <!--<string name="unlock_offers">Offer Packages</string>-->
+    <string name="unlock_offers">&#160; &#160;Gain Access&#160; &#160;</string>
+    <string name="home_screen_main_button_header_vodafone_user">&#160; Get 1st Month Free &#160;</string>
+    <string name="home_screen_food">Food &amp;\nDrinks</string>
+    <string name="home_screen_beauty">Beauty &amp;\nHealth</string>
+    <string name="home_screen_fun">Fun &amp;\nLeisure</string>
+    <string name="home_screen_hotel">Retail &amp;\nServices</string>
+    <string name="home_screem_member">Already a member?</string>
+    <string name="home_screen_you_can_use_again">Special offers this month</string>
+    <string name="home_screen_our_member_loved">Most loved by our members</string>
+
+    <string name="plus_974">+974</string>
+    <string name="receive_activation_code_message"> You will now receive a text message with your activation code</string>
+    <string name="enter_activation_code_below">Please enter your code below</string>
+    <string name="not_get_activation_code">Did not receive your activation code? <u>Send again</u></string>
+    <string name="activation_code">Verification Code</string>
+
+
+    <string name="intro_fra_1">Awesome Things\n to do</string>
+    <string name="intro_fra_1_footer">From your favorite restaurants, salons and brands!</string>
+    <string name="intro_fra_2">Monthly Local\n Offers</string>
+    <string name="intro_fra_2_footer">Access great local offers every month!\n&#160;</string>
+    <!--<string name="intro_fra_3">Enjoy Your City</string>-->
+    <string name="intro_fra_3">Simplest Way to\n Enjoy Your City</string>
+    <string name="intro_fra_3_footer">Enjoy a lavish lifestyle without hurting your wallet!</string>
+    <string name="login_terms_and_conditions_message_one"> By clicking Finish, you agree to accept our&#160;</string>
+    <!--<string name="login_terms_and_conditions_message_two"><u>Privacy Statement and</u></string>-->
+    <string name="login_terms_and_conditions_message_two"><u>Privacy Statement and Terms of Use</u></string>
+    <string name="terms_of_use"><u>Terms of Use</u></string>
+    <string name="privacy_and_terms">Privacy &amp; Terms</string>
+
+    <!--<string name="offer_share_message_text">Hi!\nCheck out this offer on Urban Point! \n%1$s by %2$s\nSave %3$s when you avail this offer!\n\nDownload the app to access this offer:\n\niPhone:&#160;%4$s\n\nAndroid:&#160;%5$s</string>-->
+    <string name="offer_share_message_text">Hi!\nCheck out this offer on Urban Point! \n%1$s by %2$s\nSave %3$s when you avail this offer!\n\nDownload the app to access this offer:\n\n%4$s</string>
+
+
+    <string name="in_progress">Activation in Progress</string>
+    <string name="max_sending_otp_reached">You have exceeded your daily limit to request a confirmation code. Please try again in 24 hours</string>
+
+    <!--<string name="voda_subscription_done_message">Your subscription request has been \n received. You will shortly receive a \n confirmation message, after which you \n can access all your Urban Point offers!</string>-->
+    <!--<string name="voda_subscription_done_message">Your subscription request has been \n received. You will shortly receive a \n confirmation message, after which you \n can access all your Urban Point offers!</string>-->
+    <string name="voda_subscription_done_message">Your subscription request has been \n received. You will receive a confirmation \n message in 5-10 minutes, after which you \n can access all your Urban Point offers!</string>
+    <string name="close">Close</string>
+    <string name="operator_change_success">Operator updated successfully.</string>
+    <string name="name">Name on Card</string>
+    <string name="last_name">Last Name</string>
+    <string name="redeem_progress_message">Confirming your order, this may take 15-20 seconds</string>
+
+    <string name="sub_complete">Subscription Complete</string>
+    <string name="search_results">Search Results</string>
+    <string name="purchase">Purchase</string>
+    <string name="redeem_confirm_message">Are you present at this outlet?</string>
+    <string name="redeem_confirm_no_message">Please redeem this offer once you are at the outlet</string>
+
+    <string name="voda_do_unsubscribe_enter_mobile_footer">By clicking Unsubscribe, I understand that I am terminating my access to ALL offers listed in the Urban Point app.</string>
+    <string name="voda_do_unsubscribe_enter_mobile_number">Please enter your phone number</string>
+    <string name="voda_do_unsubscribe_confirm">Are you sure you want to unsubscribe and lose access to all your offers?</string>
+
+    <!--<string name="app_share_message_text">Hey!\n\nCHECK out this app called Urban Point! Download to access hundreds of offers every month to enjoy your city for less!\n\niPhone:&#160;%1$s\n\nAndroid:&#160;%2$s </string>-->
+    <string name="app_share_message_text">Hey!\n\nCHECK out this app called Urban Point! Download to access hundreds of offers every month to enjoy your city for less!\n\n%1$s%2$s </string>
+    <string name="wish_list_zero">You don\'t have any Faves.</string>
+    <string name="offer_redeem_success_time">Your offer was redeemed on:\n%1$s\nat %2$s</string>
+
+    <string name="header_name">Name</string>
+    <string name="header_gender">Gender</string>
+    <string name="header_interest">Interests</string>
+    <string name="header_vodafone">Vodafone</string>
+    <string name="header_ooredoo">Ooredoo</string>
+    <string name="header_setup">Account Setup</string>
+    <string name="header_my_faves">Remove from Faves?</string>
+
+    <string name="response_empty_err_message">There is a problem with your internet connection, please try again</string>
+    <string name="festival_ramadan">ramdhan</string>
+    <string name="festival_burger">burger</string>
+    <string name="festival_biryani">biryani</string>
+
+    <string name="approx_saving">Approximate Savings</string>
+
+    <string name="approx">Approx.Saving</string>
+    <string name="free_access_text">Enjoy Free Access!</string>
+    <string name="enter_access_code">Please enter \n access code below</string>
+    <string name="access_code">Access Code</string>
+    <string name="enter_access_code_empty">Please enter access code.</string>
+    <string name="enter_access_code_empty_2">Please enter a valid Access Code</string>
+    <string name="zomato_max_rating_value">5</string>
+    <string name="ga_offer_redeem_success">Offer redeemed success</string>
+    <string name="ga_offer_pkg_payment_success">Offer package subscription success</string>
+    <string name="ga_non_vodafone">Non Vodafone</string>
+    <string name="ga_button_click">Button Click</string>
+    <string name="ga_login_screen">Login  screen: with email and pin fields</string>
+    <string name="ga_with_name_field">With name field</string>
+    <string name="ga_set_up_account_screen">Enter email and set up pin</string>
+    <string name="ga_home_screen">Homepage- Screen After Login</string>
+    <string name="ga_redemption_unique_code_screen">Redemption: Unique code screen</string>
+    <string name="ga_susbsciption_screen_two">Subscription screen for Voda users - enter code from sms</string>
+    <string name="ga_susbsciption_screen_three">Subscription screen for Voda users - confirmation screen</string>
+    <string name="ga_offer_category">Offer Packages</string>
+    <string name="ga_offer_package_selection">Offer Package Selection</string>
+    <string name="ga_purchase_screen">Non-Vodafone Package Purchase screen</string>
+    <string name="ga_purchase_screen_action">Payment done</string>
+    <string name="popup_success_purchased">successfully purchased</string>
+    <string name="ga_fun_activity_outlets">Fun Activities outlets</string>
+    <string name="ga_food_drink_offer_details">Food and Drink Offer Details</string>
+    <string name="ga_beauty_spa_offer_details">Beauty and Spa Offer Details</string>
+    <string name="ga_fun_activities_offer_details">Fun Activities Offer Details</string>
+    <string name="ga_health_fitness_offer_details">Health and Fitness Offer Details</string>
+    <string name="ga_search">Search</string>
+    <string name="ga_keyword">Keyword :</string>
+    <string name="search_screen">Search</string>
+    <string name="ga_search_not_found">Search result not found</string>
+    <string name="ga_search_found">Search result found</string>
+    <string name="ga_login_unsuccess_popup">Login Unsuccessful</string>
+    <string name="ga_get_started_btn_click_category">Get Started</string>
+    <string name="ga_get_started_btn_click_action">Get Started Button click</string>
+    <string name="ga_get_login_btn_click_category">Login Get Started Screen</string>
+    <string name="ga_get_login_btn_click_action">Login Button click</string>
+    <string name="ga_back_button_click_signup_stepone">Back button click on name field</string>
+    <string name="ga_back_button_click">Back button click</string>
+    <string name="ga_back_button_click_signup_steptwo">Back button click on gender screen</string>
+    <string name="ga_back_button_click_signup_stepfour">Back button click on vodafone Qatar customer or not screen</string>
+    <string name="ga_back_button_click_signup_stepfive">Back button click on set up your account screen</string>
+
+    <string name="ga_login_screen_category">Login screen</string>
+    <string name="ga_back_button_click_login">Back button click on login screen</string>
+    <string name="ga_voda_screen">Vodafone Qatar customer or not screen</string>
+    <string name="ga_yes_voda">Yes Select</string>
+    <string name="ga_no_voda">No Select</string>
+    <string name="ga_gain_access_voda_screen">Gain Access for Vodafone users</string>
+    <string name="ga_subscribe_click">Subscribe  click</string>
+
+
+    <!--24 Jan 2017-->
+
+    <string name="ga_event_category_get_started_name_field_back">Get started</string>
+    <string name="ga_event_action_get_started_name_field_back">GetStartedNameScreen/Back</string>
+    <string name="ga_event_label_get_started_name_field_back">Back</string>
+
+    <string name="ga_event_category_get_started_name_field_continue">Get started</string>
+    <string name="ga_event_action_get_started_name_field_continue">GetStartedNameScreen/Continue</string>
+    <string name="ga_event_label_get_started_name_field_continue">Continue</string>
+
+    <string name="ga_event_category_get_started_select_gender_continue">Get started</string>
+    <string name="ga_event_action_get_started_select_gender_continue">GetStartedGenderScreen/Continue</string>
+    <string name="ga_event_label_get_started_select_gender_continue">Continue</string>
+
+    <string name="ga_event_category_get_started_select_gender_back">Get started</string>
+    <string name="ga_event_action_get_started_select_gender_back">GetStartedGenderScreen/Back</string>
+    <string name="ga_event_label_get_started_select_gender_back">Back</string>
+
+    <string name="ga_event_category_get_started_vodafone_continue">Get started</string>
+    <string name="ga_event_action_get_started_vodafone_continue">GetStartedVodafoneScreen/Continue</string>
+    <string name="ga_event_label_get_started_vodafone_continue">Continue</string>
+
+    <string name="ga_event_category_get_started_vodafone_back">Get started</string>
+    <string name="ga_event_action_get_started_vodafone_back">GetStartedVodafoneScreen/Back</string>
+    <string name="ga_event_label_get_started_vodafone_back">Back</string>
+
+    <string name="ga_event_category_get_started_email_finish">Get started</string>
+    <string name="ga_event_action_get_started_email_finish">GetStartedSetupAccount/Finish</string>
+    <string name="ga_event_label_get_started_email_finish">Finish</string>
+
+    <string name="ga_event_category_get_started_email_back">Get started</string>
+    <string name="ga_event_action_get_started_email_back">GetStartedSetupAccount/Back</string>
+    <string name="ga_event_label_get_started_email_back">Back</string>
+
+    <string name="ga_event_category_get_started_tips_screen_lets_go">Get started</string>
+    <string name="ga_event_action_get_started_tips_screen_lets_go">GettingStartedTipsScreen/Lets go</string>
+    <string name="ga_event_label_get_started_tips_screen_lets_go">Lets go</string>
+
+    <string name="ga_event_category_login_screen_login_button">Login</string>
+    <string name="ga_event_action_login_screen_login_button">LoginScreen/Login</string>
+    <string name="ga_event_label_login_screen_login_button">Login</string>
+
+    <string name="ga_event_category_login_screen_back">Login</string>
+    <string name="ga_event_action_login_screen_back">LoginScreen/Back</string>
+    <string name="ga_event_label_login_screen_back">Back</string>
+
+    <string name="ga_event_category_login_screen_retrieve_pin">Forgot Pin</string>
+    <string name="ga_event_action_login_screen_retrieve_pin">ForgotPinScreen/RetrievePin</string>
+    <string name="ga_event_label_login_screen_retrieve_pin">RetrievePin</string>
+
+    <string name="ga_event_category_gain_access_vodafone">Gain access button for Vodafone users</string>
+    <string name="ga_event_action_gain_access_vodafone">HomeScreen/GetFirstMonthFree</string>
+    <string name="ga_event_label_gain_access_vodafone">Get Your First Month Free</string>
+
+    <string name="ga_event_category_gain_access_non_vodafone">Gain access button for non Vodafone users</string>
+    <string name="ga_event_action_gain_access_non_vodafone">HomeScreen/GainAccess</string>
+    <string name="ga_event_label_gain_access_non_vodafone">Gain Access</string>
+
+    <string name="ga_event_category_offer_packages_screen">Offer Packages</string>
+    <string name="ga_event_action_offer_packages_screen">OfferPackagesScreen</string>
+    <string name="ga_event_label_offer_packages_screen">Payment</string>
+
+    <string name="ga_event_category_complete_offer_package_payment_success">Complete Offer Package Payment Success</string>
+    <string name="ga_event_action_complete_offer_package_payment_success">CompletePaymentScreen/PurchaseSuccessPopUp/PaymentDone</string>
+    <string name="ga_event_label_complete_offer_package_payment_success">Purchase</string>
+
+    <string name="ga_event_category_complete_offer_package_payment_failure">Complete Offer Package Payment Failure</string>
+    <string name="ga_event_action_complete_offer_package_payment_failure">CompletePaymentScreen/PurchaseFailurePopUp/Invalidcardnum</string>
+    <string name="ga_event_label_complete_offer_package_payment_failure">Purchase</string>
+
+    <string name="ga_event_category_complete_offer_package_payment_failure_invalid_expiry_date">Complete Offer Package Payment Failure</string>
+    <string name="ga_event_action_complete_offer_package_payment_failure_invalid_expiry_date">CompletePaymentScreen/PurchaseFailurePopUp/Invalidexpirydate</string>
+    <string name="ga_event_label_complete_offer_package_payment_failure_invalid_expiry_date">Purchase</string>
+
+    <string name="ga_event_category_complete_offer_package_payment_failure_invalid_cvv">Complete Offer Package Payment Failure</string>
+    <string name="ga_event_action_complete_offer_package_payment_failure_invalid_cvv">CompletePaymentScreen/PurchaseFailurePopUp/InvalidCVCcode</string>
+    <string name="ga_event_label_complete_offer_package_payment_failure_invalid_cvv">Purchase</string>
+
+    <string name="ga_event_category_change_pin">Change PIN</string>
+    <string name="ga_event_action_change_pin">ChangePinScreen/Change</string>
+    <string name="ga_event_label_change_pin">Change</string>
+
+    <string name="ga_event_category_access_code">Access code submission</string>
+    <string name="ga_event_action_access_code">AccessCodeScreen/Submit</string>
+    <string name="ga_event_label_access_code">Submit</string>
+
+    <string name="ga_event_category_contact_us">Contact Us</string>
+    <string name="ga_event_action_contact_us">ContactUsScreen/Submit</string>
+    <string name="ga_event_label_contact_us">Submit</string>
+
+    <string name="ga_event_category_logout_yes">Logout</string>
+    <string name="ga_event_action_logout_yes">LogoutPopUp/Yes</string>
+    <string name="ga_event_label_logout_yes">Yes</string>
+
+    <string name="ga_event_category_logout_no">Logout</string>
+    <string name="ga_event_action_logout_no">LogoutPopUp/No</string>
+    <string name="ga_event_label_logout_no">No</string>
+
+
+    <string name="ga_event_category_food_and_drink_offers_tab">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_offers_tab">FoodandDrinksOffersScreen/offersclick</string>
+    <string name="ga_event_label_food_and_drink_offers_tab">On Offer Click</string>
+
+    <string name="ga_event_category_food_and_drink_fav_tab_delete_yes">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_fav_tab_delete_yes">FoodandDrinksFavScreen/RemoveFavPopup/Yes</string>
+    <string name="ga_event_label_food_and_drink_fav_tab_delete_yes">Yes</string>
+
+    <string name="ga_event_category_food_and_drink_fav_tab_delete_no">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_fav_tab_delete_no">FoodandDrinksFavScreen/RemoveFavPopup/No</string>
+    <string name="ga_event_label_food_and_drink_fav_tab_delete_no">No</string>
+
+    <string name="ga_event_category_beauty_and_spa_fav_tab_delete_no">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_fav_tab_delete_no">Beauty and SpaFavScreen/RemoveFavPopup/No</string>
+    <string name="ga_event_label_beauty_and_spa_fav_tab_delete_no">No</string>
+
+    <string name="ga_event_category_fun_activities_fav_tab_delete_no">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_fav_tab_delete_no">Fun ActivitiesFavScreen/RemoveFavPopup/No</string>
+    <string name="ga_event_label_fun_activities_fav_tab_delete_no">No</string>
+
+    <string name="ga_event_category_health_and_fitness_fav_tab_delete_no">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_fav_tab_delete_no">HealthandFitnessFavScreen/RemoveFavPopup/No</string>
+    <string name="ga_event_label_health_and_fitness_fav_tab_delete_no">No</string>
+
+
+    <string name="ga_event_category_food_and_drink_offers_detail_redeem_yes">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_offers_detail_redeem_yes">FoodandDrinkScreenOffersDetails/RedeemPopUp/Yes</string>
+    <string name="ga_event_label_food_and_drink_offers_detail_redeem_yes">Yes</string>
+
+    <string name="ga_event_category_food_and_drink_offers_detail_redeem_no">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_offers_detail_redeem_no">FoodandDrinkScreenOffersDetails/RedeemPopUp/No</string>
+    <string name="ga_event_label_food_and_drink_offers_detail_redeem_no">No</string>
+
+    <string name="ga_event_category_food_and_drink_offers_detail_add_fav">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_offers_detail_add_fav">FoodandDrinkScreenOffersDetails/AddtoFav</string>
+    <string name="ga_event_label_food_and_drink_offers_detail_add_fav">Favourite</string>
+
+    <string name="ga_event_category_food_and_drink_offers_detail_share">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_offers_detail_share">FoodandDrinkScreenOffersDetails/Share</string>
+    <string name="ga_event_label_food_and_drink_offers_detail_share">Share</string>
+
+
+    <string name="ga_event_category_food_and_drink_offers_detail_NavigateToMap">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_offers_detail_NavigateToMap">FoodandDrinkScreenOffersDetails/NavigateToMap</string>
+    <string name="ga_event_label_food_and_drink_offers_detail_NavigateToMap">Directions</string>
+
+    <string name="ga_event_category_food_and_drink_offers_detail_CallFromApp">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_offers_detail_CallFromApp">FoodandDrinkScreenOffersDetails/CallFromApp</string>
+    <string name="ga_event_label_food_and_drink_offers_detail_CallFromApp">Call</string>
+
+    <string name="ga_event_category_food_and_drink_outlet_detail_SeeOffer">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_outlet_detail_SeeOffer">Food and DrinksOutletDetails/SeeOffer</string>
+    <string name="ga_event_label_food_and_drink_outlet_detail_SeeOffer">On Offer Click</string>
+
+
+    <string name="ga_event_category_beauty_and_spa_outlet_detail_SeeOffer">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_outlet_detail_SeeOffer">Beauty and SpaScreenOutletDetails/SeeOffer</string>
+    <string name="ga_event_label_beauty_and_spa_outlet_detail_SeeOffer">On Offer Click</string>
+
+    <string name="ga_event_category_fun_activities_outlet_detail_SeeOffer">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_outlet_detail_SeeOffer">Fun ActivitiesScreenOutletDetails/SeeOffer</string>
+    <string name="ga_event_label_fun_activities_outlet_detail_SeeOffer">On Offer Click</string>
+
+
+    <string name="ga_event_category_health_and_fitness_outlet_detail_SeeOffer">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_outlet_detail_SeeOffer">Health and FitnessOutletDetails/SeeOffer</string>
+    <string name="ga_event_label_health_and_fitness_outlet_detail_SeeOffer">On Offer Click</string>
+
+
+    <string name="ga_event_category_food_and_drink_outlet_detail_NavigateToMap">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_outlet_detail_NavigateToMap">FoodandDrinkScreenOutletDetails/NavigateToMap</string>
+    <string name="ga_event_label_food_and_drink_outlet_detail_NavigateToMap">Directions</string>
+
+    <string name="ga_event_category_food_and_drink_outlet_detail_CallFromApp">Food and Drinks</string>
+    <string name="ga_event_action_food_and_drink_outlet_detail_CallFromApp">FoodandDrinkScreenOutletDetails/CallFromApp</string>
+    <string name="ga_event_label_food_and_drink_outlet_detail_CallFromApp">Call</string>
+
+
+    <string name="ga_event_category_beauty_and_spa_offers_gender_specific_tab">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_offers_gender_specific_tab">BeautyandSpaGenderSpecific/offersclick</string>
+    <string name="ga_event_label_beauty_and_spa_offers_gender_specific_tab">On Offer Click</string>
+
+    <string name="ga_event_category_beauty_and_spa_all_offers_tab">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_all_offers_tab">BeautyandSpaAllOffers/offersclick</string>
+    <string name="ga_event_label_beauty_and_spa_all_offers_tab">On Offer Click</string>
+
+    <string name="ga_event_category_beauty_and_spa_fav_tab">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_fav_tab">Beauty and SpaFavScreen/RemoveFavPopup/Yes</string>
+    <string name="ga_event_label_beauty_and_spa_fav_tab">Yes</string>
+
+    <string name="ga_event_category_fun_activities_fav_tab">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_fav_tab">Fun ActivitiesFavScreen/RemoveFavPopup/Yes</string>
+    <string name="ga_event_label_fun_activities_fav_tab">Yes</string>
+
+    <string name="ga_event_category_health_and_fitness_fav_tab">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_fav_tab">HealthandFitnessFavScreen/RemoveFavPopup/Yes</string>
+    <string name="ga_event_label_health_and_fitness_fav_tab">Yes</string>
+
+    <string name="ga_event_category_beauty_and_spa_offers_details_yes">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_offers_details_yes">Beauty and SpaScreenOffersDetails/RedeemPopUp/Yes</string>
+    <string name="ga_event_label_beauty_and_spa_offers_details_yes">Yes</string>
+
+    <string name="ga_event_category_fun_activities_offers_details_yes">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_offers_details_yes">Fun ActivitiesOffersDetails/RedeemPopUp/Yes</string>
+    <string name="ga_event_label_fun_activities_offers_details_yes">Yes</string>
+
+    <string name="ga_event_category_health_and_fitness_offers_details_yes">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_offers_details_yes">HealthandFitnessOffersDetails/RedeemPopUp/Yes</string>
+    <string name="ga_event_label_health_and_fitness_offers_details_yes">Yes</string>
+
+
+    <string name="ga_event_category_beauty_and_spa_offers_details_no">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_offers_details_no">Beauty and SpaScreenOffersDetails/RedeemPopUp/No</string>
+    <string name="ga_event_label_beauty_and_spa_offers_details_no">No</string>
+
+    <string name="ga_event_category_fun_activities_offers_details_no">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_offers_details_no">Fun ActivitiesScreenOffersDetails/RedeemPopUp/No</string>
+    <string name="ga_event_label_fun_activities_offers_details_no">No</string>
+
+    <string name="ga_event_category_health_and_fitness_offers_details_no">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_offers_details_no">HealthandFitnessScreenOffersDetails/RedeemPopUp/No</string>
+    <string name="ga_event_label_health_and_fitness_offers_details_no">No</string>
+
+
+    <string name="ga_event_category_beauty_and_spa_offers_details_AddtoFav">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_offers_details_AddtoFav">Beauty and SpaScreenOffersDetails/AddtoFav</string>
+    <string name="ga_event_label_beauty_and_spa_offers_details_AddtoFav">Favourite</string>
+
+    <string name="ga_event_category_fun_activities_offers_details_AddtoFav">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_offers_details_AddtoFav">Fun ActivitiesScreenOffersDetails/AddtoFav</string>
+    <string name="ga_event_label_fun_activities_offers_details_AddtoFav">Favourite</string>
+
+    <string name="ga_event_category_health_and_fitness_offers_details_AddtoFav">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_offers_details_AddtoFav">HealthandFitnessScreenOffersDetails/AddtoFav</string>
+    <string name="ga_event_label_health_and_fitness_offers_details_AddtoFav">Favourite</string>
+
+
+    <string name="ga_event_category_beauty_and_spa_offers_details_NavigateToMap">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_offers_details_NavigateToMap">Beauty and SpaScreenOffersDetails/NavigateToMap</string>
+    <string name="ga_event_label_beauty_and_spa_offers_details_NavigateToMap">Directions</string>
+
+    <string name="ga_event_category_fun_activities_offers_details_NavigateToMap">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_offers_details_NavigateToMap">Fun ActivitiesScreenOffersDetails/NavigateToMap</string>
+    <string name="ga_event_label_fun_activities_offers_details_NavigateToMap">Directions</string>
+
+    <string name="ga_event_category_health_and_fitness_offers_details_NavigateToMap">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_offers_details_NavigateToMap">HealthandFitnesssScreenOffersDetails/NavigateToMap</string>
+    <string name="ga_event_label_health_and_fitness_offers_details_NavigateToMap">Directions</string>
+
+
+    <string name="ga_event_category_beauty_and_spa_offers_details_CallFromApp">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_offers_details_CallFromApp">Beauty and SpaScreenOffersDetails/CallFromApp</string>
+    <string name="ga_event_label_beauty_and_spa_offers_details_CallFromApp">Call</string>
+
+    <string name="ga_event_category_fun_activities_offers_details_CallFromApp">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_offers_details_CallFromApp">Fun ActivitiesScreenOffersDetails/CallFromApp</string>
+    <string name="ga_event_label_fun_activities_offers_details_CallFromApp">Call</string>
+
+    <string name="ga_event_category_health_and_fitness_offers_details_CallFromApp">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_offers_details_CallFromApp">HealthandFitnessScreenOffersDetails/CallFromApp</string>
+    <string name="ga_event_label_health_and_fitness_offers_details_CallFromApp">Call</string>
+
+    <string name="ga_event_category_beauty_and_spa_outlet_detail_NavigateToMap">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_outlet_detail_NavigateToMap">Beauty and SpaScreenOutletDetails/NavigateToMap</string>
+    <string name="ga_event_label_beauty_and_spa_outlet_detail_NavigateToMap">Directions</string>
+
+
+    <string name="ga_event_category_beauty_and_spa_outlet_detail_CallFromApp">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_outlet_detail_CallFromApp">Beauty and SpaScreenOutletDetails/CallFromApp</string>
+    <string name="ga_event_label_beauty_and_spa_outlet_detail_CallFromApp">Call</string>
+
+
+    <string name="ga_event_category_beauty_and_spa_offers_details_Share">Beauty and Spa</string>
+    <string name="ga_event_action_beauty_and_spa_offers_details_Share">Beauty and SpaScreenOffersDetails/Share</string>
+    <string name="ga_event_label_beauty_and_spa_offers_details_Share">Share</string>
+
+    <string name="ga_event_category_fun_activities_offers_details_Share">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_offers_details_Share">Fun ActivitiesScreenOffersDetails/Share</string>
+    <string name="ga_event_label_fun_activities_offers_details_Share">Share</string>
+
+    <string name="ga_event_category_health_and_fitness_offers_details_Share">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_offers_details_Share">Health and FitnesssScreenOffersDetails/Share</string>
+    <string name="ga_event_label_health_and_fitness_offers_details_Share">Share</string>
+
+    <string name="ga_event_category_fun_activities_offers_tab">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_offers_tab">FunactivitiesOffers/offersclick</string>
+    <string name="ga_event_label_fun_activities_offers_tab">On Offer Click</string>
+
+    <string name="ga_event_category_health_and_fitness_offers_tab">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_offers_tab">HealthandFitnessOffers/offersclick</string>
+    <string name="ga_event_label_health_and_fitness_offers_tab">On Offer Click</string>
+
+
+    <string name="ga_event_category_health_and_fitness_all_offers_tab">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_all_offers_tab">HealthandFitnessAllOffers/offersclick</string>
+    <string name="ga_event_label_health_and_fitness_all_offers_tab">On Offer Click</string>
+
+
+    <string name="ga_event_category_health_and_fitness_outlet_detail_CallFromApp">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_outlet_detail_CallFromApp">HealthandFitnessScreenOutletDetails/CallFromApp</string>
+    <string name="ga_event_label_health_and_fitness_outlet_detail_CallFromApp">Call</string>
+
+
+    <string name="ga_event_category_fun_activities_outlet_detail_CallFromApp">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_outlet_detail_CallFromApp">Fun ActivitiesScreenOutletDetails/CallFromApp</string>
+    <string name="ga_event_label_fun_activities_outlet_detail_CallFromApp">Call</string>
+
+    <string name="ga_event_category_fun_activities_outlet_detail_NavigateToMap">Fun Activities</string>
+    <string name="ga_event_action_fun_activities_outlet_detail_NavigateToMap">Fun ActivitiesScreenOutletDetails/NavigateToMap</string>
+    <string name="ga_event_label_fun_activities_outlet_detail_NavigateToMap">Directions</string>
+
+    <string name="ga_event_category_health_and_fitness_outlet_detail_NavigateToMap">Health and Fitness</string>
+    <string name="ga_event_action_health_and_fitness_outlet_detail_NavigateToMap">HealthandFitnesssScreenOutletDetails/NavigateToMap</string>
+    <string name="ga_event_label_health_and_fitness_outlet_detail_NavigateToMap">Directions</string>
+
+
+    <string name="ga_event_category_vodafone_qatar_user">Subscription for vodafone users</string>
+    <string name="ga_event_action_vodafone_qatar_user">VodafoneQatarUserScreen/Subscribe</string>
+    <string name="ga_event_label_vodafone_qatar_user">Subscribe</string>
+
+
+    <string name="ga_event_category_phone_number_verification">Phone number verification</string>
+    <string name="ga_event_action_phone_number_verification">VerificationCodeScreen/Verify</string>
+    <string name="ga_event_label_phone_number_verification">Verify</string>
+
+    <string name="ga_event_category_access_code_verification_success">Access code verification</string>
+    <string name="ga_event_action_access_code_verification_success">VerificationCodeScreen/AccessCodeSuccess</string>
+    <string name="ga_event_label_access_code_verification_success">Verify</string>
+
+    <string name="ga_event_category_access_code_verification_already_subscribe">Access code verification</string>
+    <string name="ga_event_action_access_code_verification_already_subscribe">VerificationCodeScreen/AccessCodeFailure-alreadySubscribed</string>
+    <string name="ga_event_label_access_code_verification_already_subscribe">Verify</string>
+
+    <string name="ga_event_category_access_code_verification_request_failed">Access code verification</string>
+    <string name="ga_event_action_access_code_verification_request_failed">VerificationCodeScreen/AccessCodeFailure-subscription request failed</string>
+    <string name="ga_event_label_access_code_verification_request_failed">Verify</string>
+
+    <string name="ga_event_category_access_code_verification_incorrect_code">Access code verification</string>
+    <string name="ga_event_action_access_code_verification_incorrect_code">VerificationCodeScreen/incorrectcode</string>
+    <string name="ga_event_label_access_code_verification_incorrect_code">Verify</string>
+
+    <string name="ga_event_category_subscription_screen_for_voda_users_confirmation_screen">Subscription screen for Voda users - confirmation screen</string>
+    <string name="ga_event_action_subscription_screen_for_voda_users_confirmation_screen">Subscription Complete</string>
+    <string name="ga_event_label_subscription_screen_for_voda_users_confirmation_screen">close</string>
+
+
+    <string name="ga_event_category_redemption_correct_user_pin">Food and Drinks</string>
+    <string name="ga_event_action_redemption_correct_user_pin">RedeemScreenUserPin/CorrectUserPin</string>
+    <string name="ga_event_label_redemption_correct_user_pin">Confirm Purchase</string>
+
+    <string name="ga_event_category_redemption_correct_merchant_pin">Food and Drinks</string>
+    <string name="ga_event_action_redemption_correct_merchant_pin">RedeemScreenMerchantPin/CorrectMerchantPin</string>
+    <string name="ga_event_label_redemption_correct_merchant_pin">Confirm Purchase</string>
+
+    <string name="ga_event_category_redemption_incorrect_user_pin">Food and Drinks</string>
+    <string name="ga_event_action_redemption_incorrect_user_pin">RedeemScreenUserPin/IncorrectUserPin</string>
+    <string name="ga_event_label_redemption_incorrect_user_pin">Confirm Purchase</string>
+
+    <string name="ga_event_category_redemption_incorrect_merchant_pin">Food and Drinks</string>
+    <string name="ga_event_action_redemption_incorrect_merchant_pin">RedeemScreenMerchantPin/InCorrectMerchantPin</string>
+    <string name="ga_event_label_redemption_incorrect_merchant_pin">Confirm Purchase</string>
+</resources>
+

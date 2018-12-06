@@ -1,0 +1,168 @@
+<com.urbanpoint.UrbanPoint.views.customViews.customRadioButtonListView.CheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+   >
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/radioButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp5"
+            android:gravity="top">
+
+            <com.urbanpoint.UrbanPoint.views.customViews.customRadioButtonListView.InertCheckBox
+                android:id="@+id/radioBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@drawable/single_radio_choice"
+                android:focusable="false"
+
+                android:paddingTop="@dimen/dp1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_toLeftOf="@+id/arrow"
+            android:layout_toRightOf="@+id/radioButtonLayout"
+            android:orientation="vertical">
+
+            <com.urbanpoint.UrbanPoint.views.customViews.customFontViews.CustomTextView
+                android:id="@+id/headerName"
+                style="@style/view_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/food_and_drink"
+                android:textColor="@color/main_color"
+                android:textSize="@dimen/sp18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dp1">
+
+                <com.urbanpoint.UrbanPoint.views.customViews.customFontViews.CustomTextView
+                    android:id="@+id/pricePerMonth"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="@string/offer_packages_price_per_month"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp14" />
+
+                <com.urbanpoint.UrbanPoint.views.customViews.customFontViews.CustomTextView
+                    android:id="@+id/totalPrice"
+                    style="@style/view_20"
+                    android:layout_weight="1.5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="@string/offer_packages_total_due"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp14" />
+            </LinearLayout>
+
+
+            <com.urbanpoint.UrbanPoint.views.customViews.customFontViews.CustomTextView
+                android:id="@+id/totalDues"
+                style="@style/view_20"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/offer_packages_total_due"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp14" />
+
+            <com.urbanpoint.UrbanPoint.views.customViews.customFontViews.CustomTextView
+                android:id="@+id/savePercentage"
+                style="@style/view_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/offer_packages_total_due"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp14"
+                android:visibility="gone" />
+
+            <com.urbanpoint.UrbanPoint.views.customViews.customFontViews.CustomTextView
+                android:id="@+id/monthlySavings"
+                style="@style/view_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/offer_packages_monthly_savings"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp14" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/act_offr_new_pakages_rl_3_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/gray_background_border">
+
+        <ImageView
+            android:id="@+id/act_offr_new_pakages_imv_1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/purple_stroke_circle"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/act_offr_new_pakages_txv_heading_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/offer_get_three_month"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/act_offr_new_pakages_imv_1"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:id="@+id/act_offr_new_pakages_txv_subtitle_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/offer_get_one_extra_month"
+            android:textColor="@color/gray_light"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/act_offr_new_pakages_txv_heading_1"
+            android:layout_toRightOf="@+id/act_offr_new_pakages_imv_1"
+            android:textColorHint="@color/gray_light"
+            android:textSize="@dimen/sp14" />
+
+
+    </RelativeLayout>
+
+</com.urbanpoint.UrbanPoint.views.customViews.customRadioButtonListView.CheckableRelativeLayout>

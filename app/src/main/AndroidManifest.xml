@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.urbanpoint.UrbanPoint">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--<uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- Recommended permission - External memory pre-caching -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!--
+       The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission
+        android:name="com.urbanpoint.UrbanPoint.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <!-- GCM requires Google Account -->
+    <!--<uses-permission android:name="android.permission.GET_ACCOUNTS" />-->
+    <!-- GCM keeps the processor from sleeping when a message is received -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- GCM creates the custom permission so only this app can receive its messages -->
+    <permission
+        android:name="com.urbanpoint.UrbanPoint.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.urbanpoint.UrbanPoint.permission.C2D_MESSAGE" />
+
+    <!-- GCM This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- GCM Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="com.urbanpoint.UrbanPoint.views.activities.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+        <!-- For Facebook-->
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!--  <provider
+              android:name="com.facebook.FacebookContentProvider"
+              android:authorities="com.facebook.app.FacebookContentProvider167219837169256"
+              android:exported="true" />
+
+  -->
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.AppActivity"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar">
+
+        </activity>
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.MainActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity android:name="com.urbanpoint.UrbanPoint.views.activities.SignUp"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.DashboardActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.categoryActivities.BeautyAndSpaMainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.categoryActivities.RetailAndServicesMainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.ForgotPasswordActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.HowItWorksActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <!-- <activity
+             android:name="com.facebook.LoginActivity"
+             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+             android:label="@string/app_name"
+             android:theme="@android:style/Theme.Translucent.NoTitleBar" />-->
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.categoryActivities.FoodAndDrinkMainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.categoryActivities.FunActivitiesMainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.OfferDetailActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.OfferPackagesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <!--<activity-->
+            <!--android:name="com.urbanpoint.UrbanPoint.views.fragments.foodAndDrink.MerchantDetailActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="adjustResize"></activity>-->
+
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.MerchantDetailActivity"
+            android:screenOrientation="portrait"></activity>
+
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.RedeemCreateActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.RedeemConfirmPurchaseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.PurchaseSuccessActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.WebViewActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.SearchFilterActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.PaymentProcessActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.paymentSelectionType.PaymentProcessSelectionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.paymentSelectionType.PaymentProcessVodafoneSuccessActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"></activity>
+
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.paymentSelectionType.PaymentProcessVodafoneSelectionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.paymentSelectionType.PaymentProcessVodafoneOTPConfirmation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.OfferNewPackagesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.PackageSubscriptionActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.PackageSubscriptionConfirmActivity"
+            android:screenOrientation="portrait"
+             android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name="com.urbanpoint.UrbanPoint.views.activities.common.PackageSubscriptionSucessActivity"
+            android:screenOrientation="portrait"
+           android:windowSoftInputMode="adjustResize"></activity>
+
+        <!-- <meta-data
+              android:name="com.facebook.sdk.ApplicationId"
+              android:value="@string/facebook_app_id" />-->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.urbanpoint.UrbanPoint" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.urbanpoint.UrbanPoint.services.MyGcmListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"></action>
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

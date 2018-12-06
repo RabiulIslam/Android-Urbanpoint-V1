@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/actionBarHeightLayout"
+        layout="@layout/action_bar_layout_height" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHeightLayout"
+        android:orientation="vertical"
+        android:padding="@dimen/dp10">
+
+        <ListView
+            android:id="@+id/purchaseHistoryListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:id="@+id/noPurchaseHistoryFound"
+            style="@style/contact_us_view_20"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/purchase_history_no_data_found"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp22"
+            android:textStyle="normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

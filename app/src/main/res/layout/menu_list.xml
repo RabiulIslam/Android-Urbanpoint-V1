@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drawer_background"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/drawer_background">
+
+                    <Button
+                        android:id="@+id/drawerMyProfil"
+                        style="@style/view_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center|left"
+                        android:text="@string/my_profile"
+                        android:textAllCaps="false" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/menu_drawer_txv_profil"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/orange_gadient_rectngle"
+                        android:paddingTop="6dp"
+                        android:text="80%"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/menuDrawerTxvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:paddingTop="5dp"
+                android:text="Hi, User!"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp20" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp10">
+
+                <Button
+                    android:id="@+id/drawerHome"
+                    style="@style/view_20"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/home"
+                    android:textAllCaps="false" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <Button
+                    android:id="@+id/drawerShareApp"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/share"
+                    android:textAllCaps="false" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/drawerMyProfile"
+                        style="@style/view_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center|left"
+                        android:text="@string/my_profile"
+                        android:textAllCaps="false" />
+
+                    <TextView
+                        android:id="@+id/menu_drawer_txv_profile"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/orange_gadient_rectngle"
+                        android:paddingTop="6dp"
+                        android:text="80%"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/drawerMyNotification"
+                        style="@style/view_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center|left"
+                        android:text="@string/my_notification"
+                        android:textAllCaps="false" />
+
+                    <TextView
+                        android:id="@+id/menu_drawer_txv_notification"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/orange_gadient_rectngle"
+                        android:paddingTop="6dp"
+                        android:text="3"
+                        android:textAlignment="center"
+                        android:textColor="@color/white" />
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/drawerHowToUse"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/how_to_use" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/drawerMyReviews"
+                        style="@style/view_20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/transparent"
+                        android:gravity="center|left"
+                        android:text="@string/my_reviews"
+                        android:textAllCaps="false" />
+
+                    <TextView
+                        android:id="@+id/menu_drawer_txv_review"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/orange_gadient_rectngle"
+                        android:paddingTop="6dp"
+                        android:text="5"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <Button
+                    android:id="@+id/drawerPurchasedHistory"
+                    style="@style/view_20"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/purchase_history"
+                    android:textAllCaps="false" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <Button
+                    android:id="@+id/drawerFreeAccessCode"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/access_code"
+                    android:textAllCaps="false" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <Button
+                    android:id="@+id/drawerChangePin"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/change_pin"
+                    android:textAllCaps="false"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/drawerUnSubscribe"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/un_subscribe"
+                    android:textAllCaps="false"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/drawerUnSubscribeSeperaterView"
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/drawerUnSubscribeNew"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/un_subscribe"
+                    android:textAllCaps="false" />
+
+                <TextView
+                    android:id="@+id/drawerUnSubscribeSeperaterViewNew"
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <Button
+                    android:id="@+id/drawerChangeOperator"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/change_cellular_operator"
+                    android:textAllCaps="false"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/drawerMyEarnings"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/my_earnings"
+                    android:textAllCaps="false"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray"
+                    android:visibility="gone" />
+
+
+                <Button
+                    android:id="@+id/drawerContactUs"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/contact_us"
+                    android:textAllCaps="false" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <Button
+                    android:id="@+id/drawerLogout"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="@string/logout"
+                    android:textAllCaps="false" />
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_height="@dimen/dp1"
+                    android:layout_marginRight="@dimen/dp20"
+                    android:background="@color/gray" />
+
+                <Button
+                    android:id="@+id/drawerTest"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/transparent"
+                    android:gravity="center|left"
+                    android:text="string/contact_us"
+                    android:textAllCaps="false"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+        <TextView
+            android:id="@+id/txv_version"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:text="version 13"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            android:textAlignment="center" />
+
+</LinearLayout>

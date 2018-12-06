@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/actionBarHeightLayout"
+        layout="@layout/action_bar_layout_height" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-1dp"
+        android:layout_below="@+id/actionBarHeightLayout"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/frg_food_merchint_list_rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <RelativeLayout
+            android:id="@+id/frg_outlet_rl_by_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-7dp"
+            android:background="@drawable/orange_gadient_rectngle_rounded"
+            android:elevation="5dp">
+
+            <TextView
+                android:id="@+id/frg_outlet_txv_by_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="By Location"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/frg_outlet_rl_by_alhpabetically"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="-7dp"
+            android:background="@drawable/gray_background_border"
+            android:elevation="5dp">
+
+            <TextView
+                android:id="@+id/frg_outlet_txv_by_alphabetically"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="20dp"
+                android:paddingTop="10dp"
+                android:text="Alphabetically"
+                android:textColor="@color/black" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ladiesTabs"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:id="@+id/llLadiesTab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/orange_gadient_rectngle"
+                android:elevation="5dp"
+                android:padding="1dp">
+
+                <TextView
+                    android:id="@+id/txvLadiesTab"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:outlineProvider="bounds"
+                    android:padding="7dp"
+                    android:text="Ladies"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <LinearLayout
+                android:id="@+id/llAllGendersTab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:padding="1dp">
+
+                <TextView
+                    android:id="@+id/txvAllGendersTab"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="-5dp"
+                    android:background="@color/white"
+                    android:outlineProvider="bounds"
+                    android:padding="7dp"
+                    android:text="All Offers"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+     <ExpandableListView
+        android:id="@+id/lvExp2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@color/white"
+        android:divider="@color/white"
+        android:listSelector="@android:color/transparent"
+        android:dividerHeight="2dp"
+        android:groupIndicator="@null"
+        />
+    </LinearLayout>
+</RelativeLayout>

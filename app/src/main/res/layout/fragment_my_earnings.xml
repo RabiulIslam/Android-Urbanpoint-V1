@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/actionBarHeightLayout"
+        layout="@layout/action_bar_layout_height" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHeightLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/change_pin_view_20"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/my_earning_header"
+                android:textSize="@dimen/sp22"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:orientation="vertical"
+                android:padding="@dimen/dp10">
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/friends_referred"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/sp20"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp10" />
+
+                <TextView
+                    android:id="@+id/friendsReferred"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/purchase_history_footer"
+                    android:textSize="@dimen/sp20"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:orientation="vertical"
+                android:padding="@dimen/dp10">
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/friends_signed_up"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/sp20"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp10" />
+
+                <TextView
+                    android:id="@+id/friendsSignedUp"
+
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/purchase_history_footer"
+                    android:textSize="@dimen/sp20"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:orientation="vertical"
+                android:padding="@dimen/dp10">
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/my_earnings"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/sp20"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp10" />
+
+                <TextView
+                    android:id="@+id/myEarnings"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/purchase_history_footer"
+                    android:textSize="@dimen/sp20"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp10"
+                android:orientation="vertical"
+                android:padding="@dimen/dp10">
+
+                <TextView
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="@string/cash_paid"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/sp20"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp10" />
+
+                <TextView
+                    android:id="@+id/cashPaid"
+                    style="@style/view_20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/purchase_history_footer"
+                    android:textSize="@dimen/sp20"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

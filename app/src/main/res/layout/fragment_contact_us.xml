@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix">
+
+    <include
+        android:id="@+id/actionBarHeightLayout"
+        layout="@layout/action_bar_layout_height" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHeightLayout"
+        android:background="@color/contact_us_background"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/mainParentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/dp20"
+                android:paddingRight="@dimen/dp20">
+
+                <include
+                    android:id="@+id/actionBarHeightLayout"
+                    layout="@layout/blank_layout_height" />
+
+                <TextView
+                    style="@style/contact_us_view_20"
+
+                    fontPath="fonts/roboto_thin.ttf"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/contact_us_how_can_help_you"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp25"
+
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp15" />
+
+                <TextView
+                    style="@style/contact_us_view_20"
+
+                    fontPath="fonts/roboto_thin.ttf"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="@string/contact_us_main_message"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp18"
+                    android:textStyle="normal" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp15" />
+
+                <!-- <Spinner
+                     style="@style/spinnerItemStyle"
+                     android:layout_width="match_parent"
+                     android:layout_height="@dimen/dp30"
+                     android:entries="@array/contact_us_reason_array" />
+     -->
+                <Spinner
+                    android:id="@+id/contactUsCategorySpinner"
+
+                    style="@style/spinnerItemStyle"
+                    fontPath="fonts/roboto_light.ttf"
+                    android:entries="@array/contact_us_reason_array"
+                    android:popupBackground="@color/white" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp15" />
+
+                <EditText
+                    android:id="@+id/contactUsMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/round_edit_text"
+                    android:gravity="left"
+                    android:hint="@string/please_type_here"
+                    android:maxLines="20"
+                    android:minLines="7"
+                    android:paddingLeft="@dimen/dp5"
+                    android:paddingTop="@dimen/dp5"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp30"
+                    android:layout_marginTop="@dimen/dp15"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <Button
+                        android:id="@+id/contactUsSubmit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.40"
+                        android:background="@drawable/contact_us_submit_round_button"
+                        android:text="@string/submit" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

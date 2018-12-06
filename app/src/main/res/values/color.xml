@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name='error_text_color'>#FF0000</color>
+    <color name="orange">#ee8d01</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">@null</color>
+    <color name="transparent_background">#80000000</color>
+    <color name="expired_item_bg">#D4D4D4</color>
+    <color name="lst_item_bg">#f7f7f7</color>
+
+
+    <color name="point_color">#722B4C</color>
+    <color name="expndble_lst_color">#a83664</color>
+    <color name="text_color">#ffffff</color>
+    <color name="point_halo_color">#722B4C</color>
+    <color name="wheel_unactive_color">@null</color>
+    <color name="wheel_active_color">@null</color>
+
+    <color name="start_transparent_background_1">#66000000</color>
+    <color name="start_transparent_background_2">#8C000000</color>
+    <color name="start_transparent_background_3">#8D000000</color>
+    <color name="start_transparent_background_4">#8C000000</color>
+    <color name="start_transparent_background_5">#4D000000</color>
+
+
+    <color name="gray_profile">#adadad</color>
+    <color name="gray">#9A9899</color>
+    <color name="gray_bg">#191717</color>
+    <color name="gray_light">#969696</color>
+    <color name="selected_pin_input">#FFB85C</color>
+    <color name="custom_message_box_button">#006DFE</color>
+    <color name="black">#000000</color>
+    <color name="drawer_background">#44444C</color>
+    <!--<color name="drawer_change_pin_background">#641930</color>-->
+    <color name="change_pin_orange">#F56C1D</color>
+    <!--<color name="contact_us_background">#B6B7BB</color>-->
+    <color name="contact_us_background">#F7F7F7</color>
+
+    <color name="contact_us_header">#342B40</color>
+    <color name="drawer_change_pin_background">#8d345a</color>
+    <color name="purchase_history_header">#ee8d01</color>
+    <color name="purchase_history_footer">#ee8d01</color>
+    <color name="drawer_contact_us_background">#8d345a</color>
+
+    <!--<color name="tab_color">#4B1127</color>-->
+    <color name="tab_color">#722B4C</color>
+
+    <color name="main_color">#722B4C</color>
+
+    <color name="tab_background_color">#712F4E</color>
+
+    <color name="tab_selection_color">#391626</color>
+
+
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="red">#FF3B00</color>
+    <color name="red_press">#990000</color>
+    <!-- <color name="zomato_rating_color">#BD4257</color>-->
+    <color name="zomato_rating_color">#c63e56</color>
+    <color name="dark_gray">#4C535B</color>
+    <color name="dark_gray_press">#ff7e8a97</color>
+    <color name="test">#ffE7E7E7</color>
+    <color name="test_2">#ff777777</color>
+    <color name="transparent_list_selector_color">#10494949</color>
+
+    <color name="label_color">#241F1D</color>
+
+
+</resources>

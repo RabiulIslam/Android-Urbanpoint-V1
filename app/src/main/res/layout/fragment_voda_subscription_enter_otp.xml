@@ -1,0 +1,203 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/actionBarHeightLayout"
+        layout="@layout/action_bar_layout_height" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHeightLayout"
+        android:background="@color/white"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/mainVodaParentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/dp10"
+            android:paddingLeft="@dimen/dp15"
+            android:paddingRight="@dimen/dp15"
+            android:paddingTop="@dimen/dp10">
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/receive_activation_code_message"
+                android:textColor="@color/drawer_contact_us_background"
+                android:textSize="@dimen/sp18" />
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp30" />
+
+            <TextView
+                android:visibility="gone"
+                style="@style/view_20"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/enter_activation_code_below"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/sp18" />
+
+            <View
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp15" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp10"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/istFreeOffertxv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/offer_get_frst_month"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/main_color"
+                    android:textSize="@dimen/sp18" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@mipmap/icn_free_offers" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/offer_subscribe_confrm_code_text"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/gray_light"
+                    android:textSize="@dimen/sp14" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.urbanpoint.UrbanPoint.views.customViews.pinEntry.PinEntryView
+                    android:id="@+id/vodafoneOTPEntry"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:focusableInTouchMode="true"
+                    android:textStyle="bold"
+                    app:accentType="character"
+                    app:applyDigitTextSize="true"
+                    app:digitBackground="@drawable/custom_square_gray_button"
+                    app:digitHeight="@dimen/dp25"
+                    app:digitSpacing="@dimen/dp10"
+                    app:digitTextColor="@color/gray"
+                    app:digitTextSize="@dimen/dp8"
+                    app:digitWidth="@dimen/dp25"
+                    app:mask="&#8226;"
+                    app:numDigits="6"
+                    app:pinAccentColor="@color/selected_pin_input"
+                    app:pinInputType="number"
+                    android:gravity="center"
+                     />
+
+
+                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp30"
+                android:layout_marginTop="@dimen/dp15"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <Button
+                    android:id="@+id/doVodafoneOTPSubmit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.30"
+                    android:background="@drawable/contact_us_submit_round_button"
+                    android:text="@string/subscribe" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/dp10">
+
+                <View
+                    style="@style/button_style"
+                    android:layout_width="@dimen/dp10"
+                    android:layout_height="@dimen/dp10"
+                    android:background="@drawable/purple_circle" />
+
+                <View
+                    android:layout_width="@dimen/dp5"
+                    android:layout_height="match_parent" />
+
+                <View
+                    style="@style/button_style"
+                    android:layout_width="@dimen/dp10"
+                    android:layout_height="@dimen/dp10"
+                    android:background="@drawable/purple_circle" />
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/frg_voda_subscription_cnfrm_txv_try_again"
+                    android:text="@string/offer_subscribe_confrm_text"
+                    android:textAlignment="center"
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/sp14" />
+
+                <TextView
+                    android:id="@+id/frg_voda_subscription_cnfrm_txv_try_again"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="@string/offer_subscribe_confrm_try_again"
+                    android:textAlignment="center"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/gray_light"
+                    android:textSize="@dimen/sp14" />
+            </RelativeLayout>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/doResendOTP"
+                style="@style/view_20"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/not_get_activation_code"
+                android:textColor="@color/drawer_contact_us_background"
+                android:textSize="@dimen/sp14" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,164 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+         &lt;!&ndash; Customize your theme here. &ndash;&gt;
+     </style>-->
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowTitleSize">0dp</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <declare-styleable name="HoloCircleSeekBar">
+        <attr name="wheel_size" format="integer" />
+        <attr name="pointer_size" format="dimension" />
+        <attr name="max" format="integer"/>
+        <attr name="show_text" format="boolean"/>
+        <attr name="start_angle" format="integer"/>
+        <attr name="end_angle" format="integer"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="init_position" format="integer"/>
+        <attr name="wheel_active_color" format="string"/>
+        <attr name="wheel_unactive_color" format="string"/>
+        <attr name="pointer_color" format="string"/>
+        <attr name="pointer_halo_color" format="string"/>
+        <attr name="text_color" format="string"/>
+    </declare-styleable>
+
+    <style name="TransparentProgressDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomIOSTransparentProgressDialog" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="view_20">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <!--<item name="android:textSize">@dimen/sp16</item>-->
+        <item name="android:textSize">@dimen/sp16</item>
+        <item name="android:layout_height">@dimen/dp30</item>
+    </style>
+
+    <style name="forgotview_20">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/purchase_history_footer</item>
+        <item name="android:textStyle">normal</item>
+        <!--<item name="android:textSize">@dimen/sp16</item>-->
+        <item name="android:textSize">@dimen/sp20</item>
+        <item name="android:layout_height">@dimen/dp70</item>
+    </style>
+
+
+    <style name="change_pin_view_20" parent="view_20">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_height">@dimen/dp30</item>
+    </style>
+
+    <style name="contact_us_view_20" parent="view_20">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:layout_height">@dimen/dp30</item>
+    </style>
+
+    <style name="padding_left_right_small">
+        <item name="android:paddingRight">@dimen/four</item>
+        <item name="android:paddingLeft">@dimen/four</item>
+    </style>
+
+    <style name="button_style">
+        <!--<item name="fontPath">fonts/openSans_lightItalic.ttf</item>-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/sp18</item>
+        <item name="android:layout_height">@dimen/dp25</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="button_large_style" parent="button_style">
+        <item name="android:layout_width">@dimen/dp175</item>
+        <item name="android:layout_height">@dimen/dp50</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+        <item name="android:typeface">normal</item>
+
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:icon">@mipmap/icon_drawer</item>
+        <item name="android:homeAsUpIndicator">@drawable/nav_space</item>
+        <item name="android:text">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Support library attribute for compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+
+
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+
+
+        <!--FOLLOWING LINE IS TO CHANGE BGCOLOR-->
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:displayOptions">showHome|useLogo</item>
+    </style>
+
+
+    <style name="withoutWindowTranslucent" parent="AppTheme">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+    <style name="spinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@mipmap/textfield_dropbox_lg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp40</item>
+    </style>
+
+
+    <style name="selectDateSpinnerItemStyle" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/black</item>
+        <!--<item name="android:background">@mipmap/textfield_dropbox_lg</item>-->
+        <item name="android:background">@drawable/input</item>
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp40</item>
+    </style>
+
+</resources>

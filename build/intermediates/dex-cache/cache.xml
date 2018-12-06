@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\b0965e219abb3292613801481931a4f7b984c952\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a72a3566643b12828a6a67b82b6db1748b0e85e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\7c1807945614113a0a98659f56f7e663244c7a2a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a92591b039ca24038005198f085076283d70499a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\36976a133f6c3beda8b500d7d42db86716fa02ee\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b47e3911b1aad275ef353124379b7cec821302a">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5ad0453170a3e2fd1da0f9897914681ff995d276\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\splunk-mint-4.0.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19452a9f6424ddae60c51f97e93cb9bec3dddfd2">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\splunk-mint-4.0.8_96afec68a6d1db15fa700c30937700ab8954e082\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\fcab8b0a4790c7a28563cadae171adc795abbd28\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e9e21d356a353890e9546eee8017fb3c9f1258b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\f9fd1fc95f62fde9ff7ac997604b260249953542\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7434cf565d810c9458a87959f6dced39886d10df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\111bb6040f4919fe20f1afafe9be3a8b8b855d77\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19acd7c9f2a1b8d5ad5f563702af27ea6d0e311a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\cwac-merge-1.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="691bb4d040b94972d45ab979d74643c682baffcc">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\cwac-merge-1.1.1_f0801304804bccb0ee866e8d67ec5f4ba7e114c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\android-viewbadger.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1303b50d535716ca7601c5014357b8435658313">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-viewbadger_5f4863a3edd0d1374ac54c55ab017ff564e1bab5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\9d9cee72dc284de278c7fb9a8e020175cea410c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1e2792b254a742dbe05aa4e44d933bb8ebcf22ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\d46fd8eeb766c493d8e1f9bfd32149369ba239cc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38838adbf851a3824c18b2469ba13a51e8ba453e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\c74a10c2d57d234aab39b30ce3918f10b10b31fc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3390cc9a47dc16b6ef210d1b0fb69a50ede5559c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\92938b35448bfc0f286695b762953c273050b167\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1deaef7ec6a302ef8f65bc62bfb89998c1ae75b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Android\AndroidStudio\gradle\m2repository\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.2.4_aad5d856eba85f6310877960d35483201ef9c6f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\1253a17de95427b2bf19428d33e6c939fbc2fbde\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc515555ced1059e52b87ab457a888a40b7ec8a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.7\cd78109020f9ec803ef4e652c17ee4615b03e20a\android-async-http-1.4.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd78109020f9ec803ef4e652c17ee4615b03e20a">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\android-async-http-1.4.7_77af5ab9ec249b32b96d7d4180a56f97e75a0934\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\dc703d82b8477d028d580d5f3063a6cc32f7abbf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8553dfa564f190bf5b6da9904604e8062543d8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\096a01bcda65e792756fb04c4031f225833b9734\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d8684f4f16f8841e301acc594c803591b193f20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\48bf4ffeacf8f361f5e4c18e477ee2eb66908378\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ea69236fbc69f4ff90cd10f9c45b7487cdf6132\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\446381e364a989ffc590cb10fc10c954682c037f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2373a5d1f92357bcd10b39d1c9d4d69b8d84430e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\c74a10c2d57d234aab39b30ce3918f10b10b31fc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3390cc9a47dc16b6ef210d1b0fb69a50ede5559c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\0185b8670568ff7598cbd6bec38ef4ebf8dfe5d9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_346de6b0b2e911029a4748ef905a9b13446af8e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\f9fd1fc95f62fde9ff7ac997604b260249953542\output\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.0.0_02e475b1237f24dfd3022014d3c3351fc96bb1fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\9bf5ac92fd72e777a63bc4dba6ebe49fd544486a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5ea396cb4c6dfc244e1a83eb599c0be82e65110e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\7ec2585bf146f1c97cfacb8581cc1f6e32f82cfe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_54cdf4b57a3dfdf43230cb83e0e8254275efa06d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\92938b35448bfc0f286695b762953c273050b167\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1deaef7ec6a302ef8f65bc62bfb89998c1ae75b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\sdei-support-lib.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6653c9151bed3340fc42d57cc67ea53aed5e672d">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\sdei-support-lib_5e2d8b3b2e9cacd2629c4391d635b3c4e87f5ac6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\cwac-merge-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="691bb4d040b94972d45ab979d74643c682baffcc">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\cwac-merge-1.1.1_f0801304804bccb0ee866e8d67ec5f4ba7e114c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\universal-image-loader-1.9.4-SNAPSHOT.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="831368dfdef2c9396955489e9058e6ad8a8e4244">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.4-SNAPSHOT_6485b15bd72fd1db567ca652abe6e34bf79be735\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\52255a86a4a03479e4c90cf107386d8d98df3564\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c38aaa6e8232077c6b21a4ac56d49ff2dbcf29ac">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_832e48582abf45208bd39ab5a854030789fe869f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\a99d632c29bd705c8a27c66c4356d6151972929c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="303f3c19296009125297a0cf7971c55c55ec0d6f">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5353370c7e9f2c548b435c124448bea8f1acea0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\9785db522fee7b8504b323c14c865495010b95e8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf9c4cb7c5c5597b05a3da0b28fd7afbedef628b">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fd7f68cc217ba43a41e642b43bc9acfd9584ea4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.stripe\stripe-java\1.40.0\ea7852585a78f79d85083f29e4a5050679d707b6\stripe-java-1.40.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea7852585a78f79d85083f29e4a5050679d707b6">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\stripe-java-1.40.0_ead6c1d856d1ff690f181a25bc872e496dfe8716\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.3.2\31fbbff1ddbf98f3aa7377c94d33b0447c646b6e\httpcore-4.3.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\httpcore-4.3.2_db65d9405fe7b3fe0873eba6f07f3c6124059769\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\38cd5e7abb36d57eddbe7744f5f5db44d7ac568e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68c11e219c260bedc449bd73d6780179e072387a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\c5ffe9d1c7fa68821bbd8911b1fb4c850055d58d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a6e2ae462c8a6db0dba6f5117bf997d86fabeb8">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b41d885f412b11b4c0e2244f04605045805af15a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\8072c2b4f29fe278d96aadf7a74c6dd23436e809\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_caaf458f2bbbb034fce39f397f8d585aa84d405b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\437e58b6e7f5e10e6635f286f0ba2d78c39b6f65\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9071d35444b58334aa806f09b7aca0b89c92be0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\5da96b001d506545fdd59383c5619b11409d249b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_96ca3f0c0b7f18ef6ccfccf1014dbc009d5d0771\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\1d7ba4a895223cf145228a8317d575a431fe1ba9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="611c7708cd3df0d7ae99105d4df5af8eb25c4b32">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8685cb577eeb65d372427fb4cc02ee890dcffefb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\a522164ec2b91c53d2221885ac03020d902b0fdf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddb8ff19c902eab4a3e970ed63fa6c2e2bc1e848">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_816829da672c5debcea82d931a3a0d4e5a450a94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\d1e9652f83a920df1da356d1e277a14b18085796\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_485b495528085597544c016e434e0d85c41d6cb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\cwac-sacklist-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74cadf78512f93641420ea8fad31a3737d5806bb">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\cwac-sacklist-1.0.2_15f0262fc50f3d43f2fb6d6c613fcd434dbbdf28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\096a01bcda65e792756fb04c4031f225833b9734\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d8684f4f16f8841e301acc594c803591b193f20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\d46fd8eeb766c493d8e1f9bfd32149369ba239cc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_38838adbf851a3824c18b2469ba13a51e8ba453e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\111bb6040f4919fe20f1afafe9be3a8b8b855d77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_19acd7c9f2a1b8d5ad5f563702af27ea6d0e311a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\c5ffe9d1c7fa68821bbd8911b1fb4c850055d58d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a6e2ae462c8a6db0dba6f5117bf997d86fabeb8">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b41d885f412b11b4c0e2244f04605045805af15a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\universal-image-loader-1.9.4-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="831368dfdef2c9396955489e9058e6ad8a8e4244">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\universal-image-loader-1.9.4-SNAPSHOT_6485b15bd72fd1db567ca652abe6e34bf79be735\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\9d9cee72dc284de278c7fb9a8e020175cea410c2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1e2792b254a742dbe05aa4e44d933bb8ebcf22ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\b0965e219abb3292613801481931a4f7b984c952\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a72a3566643b12828a6a67b82b6db1748b0e85e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\stripe\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4821a51f3fc883fa1101d033fc8e5a82973e1d1">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_c5969f5e63a674d37c96081710b6c035b1ffa094\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\38cd5e7abb36d57eddbe7744f5f5db44d7ac568e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_68c11e219c260bedc449bd73d6780179e072387a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\splunk-mint-4.0.8.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19452a9f6424ddae60c51f97e93cb9bec3dddfd2">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\splunk-mint-4.0.8_96afec68a6d1db15fa700c30937700ab8954e082\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\ac37cc25583ffebb05dd1bbd66d6fa3e9bb8fdb8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ded93c3d41fdb4472b32318000fe7df6411b296\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\7c1807945614113a0a98659f56f7e663244c7a2a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a92591b039ca24038005198f085076283d70499a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\1253a17de95427b2bf19428d33e6c939fbc2fbde\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fc515555ced1059e52b87ab457a888a40b7ec8a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\android-viewbadger.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1303b50d535716ca7601c5014357b8435658313">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-viewbadger_5f4863a3edd0d1374ac54c55ab017ff564e1bab5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\48bf4ffeacf8f361f5e4c18e477ee2eb66908378\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2ea69236fbc69f4ff90cd10f9c45b7487cdf6132\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\fcab8b0a4790c7a28563cadae171adc795abbd28\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2e9e21d356a353890e9546eee8017fb3c9f1258b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\36976a133f6c3beda8b500d7d42db86716fa02ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b47e3911b1aad275ef353124379b7cec821302a">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5ad0453170a3e2fd1da0f9897914681ff995d276\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\dc703d82b8477d028d580d5f3063a6cc32f7abbf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8553dfa564f190bf5b6da9904604e8062543d8b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\9bf5ac92fd72e777a63bc4dba6ebe49fd544486a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5ea396cb4c6dfc244e1a83eb599c0be82e65110e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\0185b8670568ff7598cbd6bec38ef4ebf8dfe5d9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_346de6b0b2e911029a4748ef905a9b13446af8e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\7ec2585bf146f1c97cfacb8581cc1f6e32f82cfe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_54cdf4b57a3dfdf43230cb83e0e8254275efa06d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\f9fd1fc95f62fde9ff7ac997604b260249953542\output\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.0.0_02e475b1237f24dfd3022014d3c3351fc96bb1fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\437e58b6e7f5e10e6635f286f0ba2d78c39b6f65\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d9071d35444b58334aa806f09b7aca0b89c92be0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\52255a86a4a03479e4c90cf107386d8d98df3564\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c38aaa6e8232077c6b21a4ac56d49ff2dbcf29ac">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_832e48582abf45208bd39ab5a854030789fe869f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.gradle\caches\modules-2\files-2.1\com.stripe\stripe-java\1.40.0\ea7852585a78f79d85083f29e4a5050679d707b6\stripe-java-1.40.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea7852585a78f79d85083f29e4a5050679d707b6">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\stripe-java-1.40.0_ead6c1d856d1ff690f181a25bc872e496dfe8716\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\ac37cc25583ffebb05dd1bbd66d6fa3e9bb8fdb8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8ded93c3d41fdb4472b32318000fe7df6411b296\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\a99d632c29bd705c8a27c66c4356d6151972929c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="303f3c19296009125297a0cf7971c55c55ec0d6f">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e5353370c7e9f2c548b435c124448bea8f1acea0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\f9fd1fc95f62fde9ff7ac997604b260249953542\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7434cf565d810c9458a87959f6dced39886d10df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\5da96b001d506545fdd59383c5619b11409d249b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_96ca3f0c0b7f18ef6ccfccf1014dbc009d5d0771\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\sdei-support-lib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6653c9151bed3340fc42d57cc67ea53aed5e672d">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\sdei-support-lib_5e2d8b3b2e9cacd2629c4391d635b3c4e87f5ac6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\slid_library\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26d847d6265070374c8c87f98781e145b47d82de">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_a09174ca9d2543369efa2b65dbb90a3e231cce47\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\446381e364a989ffc590cb10fc10c954682c037f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2373a5d1f92357bcd10b39d1c9d4d69b8d84430e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndPercent\Android_UrbanPoint\app\libs\cwac-sacklist-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74cadf78512f93641420ea8fad31a3737d5806bb">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\2\cwac-sacklist-1.0.2_15f0262fc50f3d43f2fb6d6c613fcd434dbbdf28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\c76cce27a1b65745526e182cdd6eaffa7f341aa7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e09663005d70dcedff0bb77211b9ac52d8b69421">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f794b619e2204758be7940638fec7b4de60c7701\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\d1e9652f83a920df1da356d1e277a14b18085796\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_485b495528085597544c016e434e0d85c41d6cb3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\a522164ec2b91c53d2221885ac03020d902b0fdf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddb8ff19c902eab4a3e970ed63fa6c2e2bc1e848">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_816829da672c5debcea82d931a3a0d4e5a450a94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\9785db522fee7b8504b323c14c865495010b95e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cf9c4cb7c5c5597b05a3da0b28fd7afbedef628b">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fd7f68cc217ba43a41e642b43bc9acfd9584ea4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\8072c2b4f29fe278d96aadf7a74c6dd23436e809\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_caaf458f2bbbb034fce39f397f8d585aa84d405b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Lenovo\.android\build-cache\1d7ba4a895223cf145228a8317d575a431fe1ba9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="611c7708cd3df0d7ae99105d4df5af8eb25c4b32">
+        <dex dex="E:\AndPercent\Android_UrbanPoint\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8685cb577eeb65d372427fb4cc02ee890dcffefb\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,41 @@
+{
+  "status": "1",
+  "message": "Merchant detail fetched",
+  "data": [
+    {
+      "fromdate": "2016-11-30 00:00:00",
+      "merchantname": "Al Kut Cafe",
+      "merchantaddress": "Wyndham Grand Regency Doha",
+      "merchantdescription": "Known for their artisanal drinks brewed to perfection, Al Kut Caf\u00e9 also offers other options including pastries, cakes & sandwiches.",
+      "productid": "718",
+      "productname": "2-for-1 Any Menu Item",
+      "festival": null,
+      "timings": "Sat - Wed 7:30am \u2013 12am , Thu - Fri 7:30am \u2013 12:30am",
+      "productimage": "https:\/\/www.urbanpoint.com\/dev2\/media\/catalog\/product\/cache\/1\/thumbnail\/75x75\/c96a280f94e22e3ee3823dd0a1a87606\/w\/y\/wyn-003-thumb.jpg",
+      "thumbnail": "\/w\/y\/wyn-003-thumb.jpg",
+      "zomato_rating": "3.1",
+      "latitude": "25.2916880000",
+      "longitude": "51.4969810000",
+      "number": "4434 3333",
+      "merchantsprofile_image": "https:\/\/www.urbanpoint.com\/dev2\/media\/magebuzz\/avatar\/WYNDHAMHOTELGROUP-WyndhamGrandRegencyDoha-AlKutCafe_Logo.jpg",
+      "merchantsbaseimage": "https:\/\/www.urbanpoint.com\/dev2\/media\/magebuzz\/avatar\/WYNDHAMHOTELGROUP-WyndhamGrandRegencyDoha_Exterior.jpg",
+      "Discount": 50,
+      "status": "active"
+    },
+    {
+      "merchantname": "Al Kut Cafe",
+      "merchantaddress": "Wyndham Grand Regency Doha",
+      "merchantdescription": "Known for their artisanal drinks brewed to perfection, Al Kut Caf\u00e9 also offers other options including pastries, cakes & sandwiches.",
+      "timings": "Sat - Wed 7:30am \u2013 12am , Thu - Fri 7:30am \u2013 12:30am",
+      "zomato_rating": "3.1",
+      "latitude": "25.2916880000",
+      "longitude": "51.4969810000",
+      "number": "4434 3333",
+      "merchantsprofile_image": "https:\/\/www.urbanpoint.com\/dev2\/media\/magebuzz\/avatar\/WYNDHAMHOTELGROUP-WyndhamGrandRegencyDoha-AlKutCafe_Logo.jpg",
+      "merchantsbaseimage": "https:\/\/www.urbanpoint.com\/dev2\/media\/magebuzz\/avatar\/WYNDHAMHOTELGROUP-WyndhamGrandRegencyDoha_Exterior.jpg",
+      "status": "expired"
+    }
+  ],
+  "wishlistcount": 0,
+  "flag": 0
+}

@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/actionBarHeightLayout"
+        layout="@layout/action_bar_layout_height" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHeightLayout"
+        android:layout_margin="@dimen/dp10"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/mainParentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_round_gray_button"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/offerPackageName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:textSize="@dimen/sp18"
+                    android:singleLine="true"
+                    android:text="@string/application_subscription"
+                    android:textColor="@color/gray" />
+
+                <EditText
+                    android:textSize="@dimen/sp18"
+                    android:id="@+id/purchaseDollarValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="2"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="asdas"
+                    android:textColor="@color/gray" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp10" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:textSize="@dimen/sp18"
+                    android:id="@+id/firstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_round_gray_button"
+                    android:gravity="center"
+                    android:hint="@string/name"
+                    android:inputType="text"
+                    android:paddingLeft="@dimen/dp10"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp10" />
+
+            <EditText
+                android:textSize="@dimen/sp18"
+                android:id="@+id/cardNumber"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_round_gray_button"
+                android:gravity="center"
+                android:hint="@string/card_number"
+                android:inputType="number"
+                android:maxLength="19"
+                android:paddingLeft="@dimen/dp10"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp10" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_round_gray_button"
+                    android:gravity="center">
+
+                    <Spinner
+                        android:id="@+id/expiryMonthSpinner"
+                        style="@style/selectDateSpinnerItemStyle"
+                        android:layout_height="?android:attr/actionBarSize"
+                        android:layout_gravity="center"
+                        android:entries="@array/payment_expiry_month"
+                        android:gravity="center"
+                        android:popupBackground="@color/white" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/dp5"
+                    android:layout_height="match_parent" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_round_gray_button"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/expiryYearSpinner"
+                        style="@style/selectDateSpinnerItemStyle"
+                        android:layout_height="?android:attr/actionBarSize"
+                        android:layout_gravity="center"
+                        android:entries="@array/payment_expiry_month"
+                        android:gravity="center"
+                        android:popupBackground="@color/white" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/dp5"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:textSize="@dimen/sp18"
+                    android:id="@+id/cvvNumber"
+                    android:layout_width="0dp"
+                    android:layout_height="?android:attr/actionBarSize"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_round_gray_button"
+                    android:gravity="center"
+                    android:hint="@string/cvv"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:paddingLeft="@dimen/dp10"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp10" />
+
+
+            <Button
+                android:id="@+id/doOtherOperatorPaymentRequest"
+                android:layout_width="@dimen/dp150"
+                android:layout_height="?android:attr/actionBarSize"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/dp10"
+                android:background="@drawable/round_tabs_custom"
+                android:gravity="center"
+                android:textSize="@dimen/sp18"
+                android:orientation="horizontal"
+                android:text="@string/purchase" />
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/expiryDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_round_gray_button"
+                    android:digits="0123456789/"
+                    android:gravity="center"
+                    android:hint="@string/mm_yy"
+                    android:inputType="date"
+                    android:maxLength="5"
+                    android:paddingLeft="@dimen/dp10"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+                <View
+                    android:layout_width="@dimen/dp5"
+                    android:layout_height="match_parent" />
+
+                <EditText
+                    android:id="@+id/cvvNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_round_gray_button"
+                    android:gravity="center"
+                    android:hint="@string/cvv"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:paddingLeft="@dimen/dp10"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+            </LinearLayout>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

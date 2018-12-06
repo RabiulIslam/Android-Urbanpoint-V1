@@ -1,0 +1,309 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/actionBarHeightLayout"
+        layout="@layout/action_bar_layout_height" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actionBarHeightLayout"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fillViewport="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/mainRedeemConfirmParentLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp10"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/offer_get_one_month"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/main_color"
+                            android:textSize="@dimen/sp18" />
+
+                        <ImageView
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:background="@mipmap/icn_free_offers" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/offer_packages_promotional_text"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/main_color"
+                            android:textSize="@dimen/sp14" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/dp15"
+                        android:layout_marginRight="@dimen/dp15"
+                        android:orientation="vertical">
+
+                        <RelativeLayout
+                            android:id="@+id/act_offr_new_pakages_rl_3_month"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/gray_background_border">
+
+                            <ImageView
+                                android:id="@+id/act_offr_new_pakages_imv_1"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/purple_stroke_circle"
+                                android:layout_centerVertical="true"/>
+                            <TextView
+                                android:id="@+id/act_offr_new_pakages_txv_heading_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/offer_get_three_month"
+                                android:textColor="@color/gray"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toRightOf="@+id/act_offr_new_pakages_imv_1"
+                                android:textColorHint="@color/black"
+                                android:textSize="@dimen/sp16" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/offer_get_one_extra_month"
+                                android:textColor="@color/gray_light"
+                                android:layout_marginLeft="10dp"
+                                android:layout_below="@+id/act_offr_new_pakages_txv_heading_1"
+                                android:layout_toRightOf="@+id/act_offr_new_pakages_imv_1"
+                                android:textColorHint="@color/gray_light"
+                                android:textSize="@dimen/sp14" />
+
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/act_offr_new_pakages_rl_6_month"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/gray_background_border">
+
+                            <ImageView
+                                android:id="@+id/act_offr_new_pakages_imv_2"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/purple_stroke_circle"
+                                android:layout_centerVertical="true"/>
+                            <TextView
+                                android:id="@+id/act_offr_new_pakages_txv_heading_2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/offer_get_six_month"
+                                android:textColor="@color/gray"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toRightOf="@+id/act_offr_new_pakages_imv_2"
+                                android:textColorHint="@color/black"
+                                android:textSize="@dimen/sp16" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/offer_get_one_extra_month"
+                                android:textColor="@color/gray_light"
+                                android:layout_marginLeft="10dp"
+                                android:layout_below="@+id/act_offr_new_pakages_txv_heading_2"
+                                android:layout_toRightOf="@+id/act_offr_new_pakages_imv_2"
+                                android:textColorHint="@color/gray_light"
+                                android:textSize="@dimen/sp14" />
+
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/act_offr_new_pakages_rl_1_year"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/gray_background_border">
+
+                            <ImageView
+                                android:id="@+id/act_offr_new_pakages_imv_3"
+                                android:layout_width="10dp"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/purple_stroke_circle"
+                                android:layout_centerVertical="true"/>
+                            <TextView
+                                android:id="@+id/act_offr_new_pakages_txv_heading_3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/offer_get_one_year"
+                                android:textColor="@color/gray"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toRightOf="@+id/act_offr_new_pakages_imv_3"
+                                android:textSize="@dimen/sp16" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/offer_get_one_extra_month"
+                                android:textColor="@color/gray_light"
+                                android:layout_marginLeft="10dp"
+                                android:layout_below="@+id/act_offr_new_pakages_txv_heading_3"
+                                android:layout_toRightOf="@+id/act_offr_new_pakages_imv_3"
+                                android:textColorHint="@color/gray_light"
+                                android:textSize="@dimen/sp14" />
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp50"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <Button
+                                android:id="@+id/act_offr_new_pakages_btn_purchase"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dp50"
+                                android:layout_weight="0.40"
+                                android:background="@drawable/rounded_edge_purple_button"
+                                android:text="@string/purchase" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/dp10">
+
+                            <View
+                                style="@style/button_style"
+                                android:layout_width="@dimen/dp10"
+                                android:layout_height="@dimen/dp10"
+                                android:background="@drawable/purple_circle" />
+
+                            <View
+                                android:layout_width="@dimen/dp5"
+                                android:layout_height="match_parent" />
+
+                            <View
+                                style="@style/button_style"
+                                android:layout_width="@dimen/dp10"
+                                android:layout_height="@dimen/dp10"
+                                android:background="@drawable/purple_stroke_circle" />
+
+                            <View
+                                android:layout_width="@dimen/dp5"
+                                android:layout_height="match_parent" />
+
+                            <View
+                                style="@style/button_style"
+                                android:layout_width="@dimen/dp10"
+                                android:layout_height="@dimen/dp10"
+                                android:background="@drawable/purple_stroke_circle" />
+
+                            <View
+                                android:layout_width="@dimen/dp5"
+                                android:layout_height="match_parent" />
+                            <View
+                                style="@style/button_style"
+                                android:layout_width="@dimen/dp10"
+                                android:layout_height="@dimen/dp10"
+                                android:background="@drawable/purple_stroke_circle" />
+
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/offer_use_cards"
+                            android:textAlignment="center"
+                            android:layout_marginTop="15dp"
+                            android:textColor="@color/white"
+                            android:textColorHint="@color/gray_light"
+                            android:textSize="@dimen/sp14" />
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/dp50"
+                            android:layout_marginTop="@dimen/dp10"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:weightSum="1">
+
+                            <Button
+                                android:id="@+id/act_offr_new_pakages_btn_subscribe"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dp40"
+                                android:layout_weight="0.20"
+                                android:textSize="@dimen/sp16"
+                                android:textColor="@color/black"
+                                android:background="@drawable/custom_round_gray_button"
+                                android:text="@string/subscribe" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+     </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

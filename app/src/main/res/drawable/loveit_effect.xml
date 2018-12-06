@@ -1,0 +1,14 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" android:drawable="@mipmap/love_it_nrml" />
+    <item android:state_pressed="true" android:drawable="@mipmap/love_it_slctd" />
+</selector>
+
+
+
+    <!--
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_focused="true" android:state_pressed="true" android:drawable="@mipmap/love_it_slctd"/>
+        <item android:state_focused="false" android:state_pressed="true" android:drawable="@mipmap/love_it_slctd"/>
+        <item android:state_focused="true" android:drawable="@mipmap/love_it_nrml"/>
+        <item android:state_focused="false" android:state_pressed="false" android:drawable="@mipmap/love_it_nrml"/>
+    </selector>-->

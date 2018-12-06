@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp90"
+    android:background="@drawable/elevation"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dp4"
+    android:paddingLeft="@dimen/dp4"
+    android:paddingRight="@dimen/dp4"
+    android:paddingTop="@dimen/dp4"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dp2">
+
+        <ImageView
+            android:id="@+id/offerImage"
+            android:layout_width="@dimen/dp100"
+            android:layout_height="@dimen/dp90"
+            android:contentDescription="@string/app_name_with_space"
+
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/dp10"
+            android:layout_marginRight="@dimen/dp5"
+            android:layout_toLeftOf="@+id/arrow"
+            android:layout_toRightOf="@+id/offerImage"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                fontPath="fonts/openSans_regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/food_and_drink"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sp16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dp5">
+
+                <ImageView
+                    android:layout_width="@dimen/dp15"
+                    android:layout_height="@dimen/dp15"
+                    android:src="@mipmap/beauty_n_spa_small"
+                    android:text="@string/food_and_drink" />
+
+                <TextView
+                    android:id="@+id/merchant_name"
+                    fontPath="fonts/openSans_regular.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp5"
+                    android:text="@string/food_and_drink"
+                    android:textColor="@color/purchase_history_footer"
+                    android:textSize="@dimen/sp12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dp5">
+
+                <ImageView
+                    android:layout_width="@dimen/dp15"
+                    android:layout_height="@dimen/dp15"
+                    android:src="@mipmap/location_map"
+                    android:text="@string/food_and_drink" />
+
+                <TextView
+                    android:id="@+id/distanceAndMerchantAddress"
+                    fontPath="fonts/openSans_regular.ttf"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/dp5"
+                    android:singleLine="true"
+                    android:text="@string/food_and_drink"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/sp12" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/discount"
+                fontPath="fonts/openSans_regular.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text="@string/food_and_drink"
+                android:textColor="@color/purchase_history_footer"
+                android:textSize="@dimen/sp14"
+                android:visibility="gone"
+
+                />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/beautyShowLockOffersIcon"
+            android:layout_width="@dimen/dp20"
+            android:layout_height="@dimen/dp20"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/lock_offers"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dp5"
+            android:layout_marginRight="@dimen/dp5"
+            android:contentDescription="@string/app_name_with_space"
+            android:src="@mipmap/fwd_icon" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

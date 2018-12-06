@@ -1,0 +1,89 @@
+apply plugin: 'com.android.application'
+//apply plugin: 'sonar-runner'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "27.0.2"
+
+    defaultConfig {
+
+
+        applicationId "com.urbanpoint.UrbanPoint"
+        minSdkVersion 17
+
+        targetSdkVersion 27
+        versionCode 47
+        versionName "1.58"
+        multiDexEnabled true
+
+        // Enabling multidex support.
+        //   multiDexEnabled true
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+          //  proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+              proguardFiles 'proguard-rules.pro'
+        }
+    }
+
+    /* lintOptions {
+         checkReleaseBuilds false
+         // Or, if you prefer, you can continue to check for errors in release builds,
+         // but continue the build even when errors are found:
+         abortOnError false
+     }*/
+
+    /*dexOptions{
+       incremental true
+       javaMaxHeapSize "1g"
+   }*/
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:27.0.2'
+    compile files('libs/sdei-support-lib.jar')
+    //compile files('libs/gson-2.2.4.jar')
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/splunk-mint-4.0.8.jar')
+    compile 'com.google.android.gms:play-services:10.2.1'
+    compile project(':slid_library')
+    compile files('libs/cwac-merge-1.1.1.jar')
+    compile 'com.mikhaellopez:circularimageview:3.0.1'
+    compile files('libs/universal-image-loader-1.9.4-SNAPSHOT.jar')
+    compile files('libs/cwac-sacklist-1.0.2.jar')
+    compile 'com.yqritc:android-scalablevideoview:1.0.3'
+    compile 'com.jpardogo.materialtabstrip:library:1.1.0'
+    compile files('libs/android-viewbadger.jar')
+    // compile 'com.daimajia.swipelayout:library:1.2.0@aar'
+    // compile 'com.stripe:stripe-android:+'
+    //compile 'com.android.support:multidex:1.0.0'
+    compile project(':stripe')
+    compile 'com.kaopiz:kprogresshud:1.0.5'
+    compile 'com.viewpagerindicator:library:2.4.1@aar'
+    compile 'uk.co.chrisjenx:calligraphy:2.0.2'
+    compile 'pl.droidsonroids.gif:android-gif-drawable:1.1.+'
+
+    compile 'me.relex:circleindicator:1.2.2@aar'
+
+    // Required for Flurry Analytics integration
+    compile 'com.flurry.android:analytics:7.0.0@aar'
+
+    //Async Api calls
+    compile 'com.loopj.android:android-async-http:1.4.7'
+    //Http requests in Api 23+
+    compile 'org.apache.httpcomponents:httpcore:4.3.2'
+
+    //For Mixpanel Implimentation
+    compile "com.mixpanel.android:mixpanel-android:5.+"
+    compile "com.google.android.gms:play-services-gcm:10.2.1"
+    compile 'com.android.support:multidex:1.0.3'
+    //compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.facebook.android:facebook-android-sdk:4.26.0'
+
+
+    // For Uber Ride Request Button
+    implementation 'com.uber.sdk:rides-android:0.9.1'
+}
